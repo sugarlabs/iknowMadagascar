@@ -1,0 +1,8 @@
+[Activity]
+name = I know Madagascar
+activity_version = 1
+bundle_id = org.ceibaljam.conozcomadagascar
+icon = madagascar
+exec = sugar-activity activity.Activity
+license = GPLv3
+summary = Game about the geography of Madagascar
