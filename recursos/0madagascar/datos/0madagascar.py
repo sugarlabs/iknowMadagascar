@@ -165,17 +165,16 @@ RIVERS = [
 ROUTES = []
 
 STATS = [
-    (_('Capital:'), _('Antananarivo') + _("(00º00' S - 00º00' W)")),
-    (_('Language:'), _('Spanish')),
-    (_('Government:'), _('Federal presidential republic')),
-    (_('President:'), _('Cristina Fernández')),
-    (_('Vice President:'), _('Amado Boudou')),
-    (_('Independence:'), _('from Spain')),
-    ('', _('declared: %s') % _('9 of july of 1816')),
-    ('', _('recognized: %s') % ('21 of september of 1863')),
-    (_('Area:'), _('2.780.400 km² (8th)')),
-    (_('Population:'), _('40.091.359 (32nd)')),
-    (_('GDP:'), _('USD 474.812 billion (25th)')),
-    (_('HDI:'), _('High - 0,775 (46th)')),
-    (_('Currency:'), _('Peso'))
+    (_('Capital:'), _('Antananarivo') + _("(18°55′ S - 47°31′ W)")),
+    (_('Language:'), _('Malagasy'), _('French')),
+    (_('Government:'), _('Caretaker government')),
+    (_('President:'), _('Andry Rajoelina')),
+    (_('Prime minister:'), _('Omer Beriziky')),
+    (_('Independence:'), _('from France')),
+    ('', _('26 of June of 1960 ')),
+    (_('Area:'), _('587.041 km² (47th)')),
+    (_('Population:'), _('22.005.222 (53rd)')),
+    (_('GDP:'), _('USD 20.400 billion')),
+    (_('HDI:'), _('Low - 0,435 (135th)')),
+    (_('Currency:'), _('Malagasy ariary'))
 ]
