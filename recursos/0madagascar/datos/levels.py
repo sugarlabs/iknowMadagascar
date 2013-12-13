@@ -142,7 +142,8 @@ LEVEL1 = [
 	(_('Menamaty Lloto'), _("It's in %s") % _('Fianarantsoa')),
 	(_('Vohipeno'), _("It's in %s") % _('Fianarantsoa')),
 	(_('Ranohira'), _("It's in %s") % _('Fianarantsoa')),
-	(_('Farafangana'), _("It's in %s") % _('Fianarantsoa'))
+	(_('Farafangana'), _("It's in %s") % _('Fianarantsoa')),
+    (_('Nosy Be'), _("It's a island"))
 ]
 ]
 

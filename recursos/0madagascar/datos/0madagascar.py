@@ -155,7 +155,9 @@ CITIES = [
     (_('Menamaty Lloto'), 315, 653, 2, 20, 14),
     (_('Vohipeno'), 463, 678, 2, 45, 0),
     (_('Ranohira'), 317, 691, 2, 0, 14),
-    (_('Farafangana'), 458, 709, 2, 55, 0)
+    (_('Farafangana'), 458, 709, 2, 55, 0),
+    # Islands
+    (_('Nosy Be'), 493, 100, 2, -45, 2)
 ]
 
 RIVERS = [
