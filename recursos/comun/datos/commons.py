@@ -6,7 +6,7 @@ ACTIVITY_NAME = _('I know Madagascar')
 
 PRESENTATION = [
     _('Hello friends...'),
-    _('...tomorrow I have a\ntest about America...'),
+    _('...tomorrow I have a\ntest about Madagascar...'),
     _('...and I know nothing!!!'),
     _('...what do I do???'),
     _('Can I ask you something?'),
