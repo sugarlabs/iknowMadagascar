@@ -1117,16 +1117,6 @@ class Conozco():
         self.camino_imagenes = os.path.join(CAMINORECURSOS,
                                             CAMINOCOMUN,
                                             CAMINOIMAGENES)
-        # fondo presentacion
-        self.fondo1 = self.cargarImagen("fondo1.png")
-        self.fondo2 = self.cargarImagen("fondo2.png")
-        # JP presentacion
-        self.jpp1 = self.cargarImagen("jpp1.png")
-        self.jpp2 = self.cargarImagen("jpp2.png")
-        # globo
-        self.globo1 = self.cargarImagen("globo1.png")
-        self.globo2 = pygame.transform.flip(self.globo1, True, False)
-        self.globo3 = self.cargarImagen("globo3.png")
         # JP para el juego
         self.jp1 = self.cargarImagen("jp1.png")
         # Ojos JP
