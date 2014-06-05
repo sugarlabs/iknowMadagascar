@@ -1,0 +1,1462 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-19 00:30-0500\n"
+"PO-Revision-Date: 2014-06-05 22:53+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+#: recursos/comun/datos/commons.py:5
+msgid "I know Madagascar"
+msgstr "Je connais Madagascar"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "Game about the geography of Madagascar"
+msgstr "Un jeu sur la géographie de Madagascar"
+
+#: conozco.py:247 conozco.py:357 conozco.py:381 conozco.py:437 conozco.py:520
+#, python-format
+msgid "Cannot open %s"
+msgstr "Impossible d'ouvrir %s"
+
+#: conozco.py:470
+#, python-format
+msgid ""
+"the city of\n"
+"%s"
+msgstr ""
+"La ville de\n"
+"%s"
+
+#: conozco.py:473
+#, python-format
+msgid ""
+"the department of\n"
+"%s"
+msgstr ""
+"Le département de\n"
+"%s"
+
+#: conozco.py:476
+#, python-format
+msgid ""
+"the province of\n"
+"%s"
+msgstr ""
+"La province de\n"
+"%s"
+
+#: conozco.py:479
+#, python-format
+msgid ""
+"the district of\n"
+"%s"
+msgstr ""
+"Le district de\n"
+"%s"
+
+#: conozco.py:482
+#, python-format
+msgid ""
+"the state of\n"
+"%s"
+msgstr ""
+"L'état de\n"
+"%s"
+
+#: conozco.py:485
+#, python-format
+msgid ""
+"the region of\n"
+"%s"
+msgstr ""
+"La région de\n"
+"%s"
+
+#: conozco.py:488
+#, python-format
+msgid ""
+"the parish of\n"
+"%s"
+msgstr ""
+"le parish de\n"
+"%s"
+
+#: conozco.py:491
+#, python-format
+msgid ""
+"the taluka of\n"
+"%s"
+msgstr ""
+"le\n"
+"%s"
+
+#: conozco.py:494
+#, python-format
+msgid ""
+"the municipality of\n"
+"%s"
+msgstr ""
+"la municipalité de\n"
+"%s"
+
+#: conozco.py:497
+#, python-format
+msgid "the %s"
+msgstr "le %s"
+
+#: conozco.py:500
+#, python-format
+msgid "the %(route)s"
+msgstr "les %(route)s"
+
+#: conozco.py:557
+#, python-format
+msgid "About %s"
+msgstr "À propos de %s"
+
+#: conozco.py:571 conozco.py:648
+msgid "Press any key to return"
+msgstr "Appuyer sur une touche pour continuer"
+
+#: conozco.py:603
+#, python-format
+msgid "Stats of %s"
+msgstr "Statistiques de %s"
+
+#: conozco.py:609
+#, python-format
+msgid "Total score: %s"
+msgstr "Score total : %s"
+
+#: conozco.py:615
+#, python-format
+msgid "Game average score: %s"
+msgstr "Score moyen du jeu : %s"
+
+#: conozco.py:621
+#, python-format
+msgid "Times using Explore Mode: %s"
+msgstr "Temps d'utilisation du mode exploration : %s"
+
+#: conozco.py:627
+#, python-format
+msgid "Places Explored: %s"
+msgstr "Lieux explorés : %s"
+
+#: conozco.py:633
+#, python-format
+msgid "Times using Game Mode: %s"
+msgstr "Temps d'utilisation du mode jeu : %s"
+
+#: conozco.py:641
+#, python-format
+msgid "Total time: %s minutes"
+msgstr "Temps total : %s minutes"
+
+#: conozco.py:680
+msgid "You have chosen the map "
+msgstr "Vous avez choisis la carte "
+
+#: conozco.py:686
+msgid "Play"
+msgstr "Jouer"
+
+#: conozco.py:702
+msgid "Explore"
+msgstr "Explorer"
+
+#: conozco.py:722 conozco.py:883
+msgid "About this game"
+msgstr "À propos de ce jeu"
+
+#: conozco.py:730 conozco.py:891
+msgid "Stats"
+msgstr "Statistiques"
+
+#: conozco.py:738
+msgid "Return"
+msgstr "Revenir"
+
+#: conozco.py:803
+msgid "Choose the map to use"
+msgstr "Choisir la carte à utiliser"
+
+#: conozco.py:823
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: conozco.py:868
+msgid "Next page"
+msgstr "Page suivante"
+
+#: conozco.py:899
+msgid "Exit"
+msgstr "Quitter"
+
+#: conozco.py:1444 conozco.py:1598
+msgid "End"
+msgstr "Terminer"
+
+#: conozco.py:1455
+msgid "Show all"
+msgstr "Afficher tout"
+
+#: recursos/0madagascar/datos/0madagascar.py:5
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: recursos/0madagascar/datos/0madagascar.py:8
+#: recursos/0madagascar/datos/0madagascar.py:18
+#: recursos/0madagascar/datos/levels.py:14
+#: recursos/0madagascar/datos/levels.py:15
+#: recursos/0madagascar/datos/levels.py:16
+#: recursos/0madagascar/datos/levels.py:17
+#: recursos/0madagascar/datos/levels.py:18
+#: recursos/0madagascar/datos/levels.py:19
+#: recursos/0madagascar/datos/levels.py:20
+#: recursos/0madagascar/datos/levels.py:21
+#: recursos/0madagascar/datos/levels.py:22
+#: recursos/0madagascar/datos/levels.py:23
+#: recursos/0madagascar/datos/levels.py:24
+#: recursos/0madagascar/datos/levels.py:25
+#: recursos/0madagascar/datos/levels.py:26
+#: recursos/0madagascar/datos/levels.py:27
+#: recursos/0madagascar/datos/levels.py:28
+#: recursos/0madagascar/datos/levels.py:29
+#: recursos/0madagascar/datos/levels.py:30
+#: recursos/0madagascar/datos/levels.py:31
+#: recursos/0madagascar/datos/levels.py:32
+#: recursos/0madagascar/datos/levels.py:33
+#: recursos/0madagascar/datos/levels.py:34
+#: recursos/0madagascar/datos/levels.py:35
+#: recursos/0madagascar/datos/levels.py:36
+#: recursos/0madagascar/datos/levels.py:37
+#: recursos/0madagascar/datos/levels.py:38
+#: recursos/0madagascar/datos/levels.py:39
+#: recursos/0madagascar/datos/levels.py:40
+#: recursos/0madagascar/datos/levels.py:41
+#: recursos/0madagascar/datos/levels.py:42
+#: recursos/0madagascar/datos/levels.py:43
+#: recursos/0madagascar/datos/levels.py:44
+#: recursos/0madagascar/datos/levels.py:45
+#: recursos/0madagascar/datos/levels.py:46
+#: recursos/0madagascar/datos/levels.py:47
+#: recursos/0madagascar/datos/levels.py:48
+#: recursos/0madagascar/datos/levels.py:49
+#: recursos/0madagascar/datos/levels.py:50
+#: recursos/0madagascar/datos/levels.py:51
+#: recursos/0madagascar/datos/levels.py:52
+msgid "Toliary"
+msgstr "Toliary"
+
+#: recursos/0madagascar/datos/0madagascar.py:9
+#: recursos/0madagascar/datos/0madagascar.py:22
+#: recursos/0madagascar/datos/levels.py:129
+#: recursos/0madagascar/datos/levels.py:130
+#: recursos/0madagascar/datos/levels.py:131
+#: recursos/0madagascar/datos/levels.py:132
+#: recursos/0madagascar/datos/levels.py:133
+#: recursos/0madagascar/datos/levels.py:134
+#: recursos/0madagascar/datos/levels.py:135
+#: recursos/0madagascar/datos/levels.py:136
+#: recursos/0madagascar/datos/levels.py:137
+#: recursos/0madagascar/datos/levels.py:138
+#: recursos/0madagascar/datos/levels.py:139
+#: recursos/0madagascar/datos/levels.py:140
+#: recursos/0madagascar/datos/levels.py:141
+#: recursos/0madagascar/datos/levels.py:142
+#: recursos/0madagascar/datos/levels.py:143
+#: recursos/0madagascar/datos/levels.py:144
+#: recursos/0madagascar/datos/levels.py:145
+msgid "Fianarantsoa"
+msgstr "Fianarantsoa"
+
+#: recursos/0madagascar/datos/0madagascar.py:10
+#: recursos/0madagascar/datos/0madagascar.py:17
+#: recursos/0madagascar/datos/0madagascar.py:170
+#: recursos/0madagascar/datos/levels.py:122
+#: recursos/0madagascar/datos/levels.py:123
+#: recursos/0madagascar/datos/levels.py:124
+#: recursos/0madagascar/datos/levels.py:125
+#: recursos/0madagascar/datos/levels.py:126
+#: recursos/0madagascar/datos/levels.py:127
+msgid "Antananarivo"
+msgstr "Antananarivo"
+
+#: recursos/0madagascar/datos/0madagascar.py:11
+#: recursos/0madagascar/datos/0madagascar.py:19
+#: recursos/0madagascar/datos/levels.py:54
+#: recursos/0madagascar/datos/levels.py:55
+#: recursos/0madagascar/datos/levels.py:56
+#: recursos/0madagascar/datos/levels.py:57
+#: recursos/0madagascar/datos/levels.py:58
+#: recursos/0madagascar/datos/levels.py:59
+#: recursos/0madagascar/datos/levels.py:60
+#: recursos/0madagascar/datos/levels.py:61
+#: recursos/0madagascar/datos/levels.py:62
+#: recursos/0madagascar/datos/levels.py:63
+#: recursos/0madagascar/datos/levels.py:64
+#: recursos/0madagascar/datos/levels.py:65
+#: recursos/0madagascar/datos/levels.py:66
+#: recursos/0madagascar/datos/levels.py:67
+#: recursos/0madagascar/datos/levels.py:68
+#: recursos/0madagascar/datos/levels.py:69
+#: recursos/0madagascar/datos/levels.py:70
+#: recursos/0madagascar/datos/levels.py:71
+#: recursos/0madagascar/datos/levels.py:72
+#: recursos/0madagascar/datos/levels.py:73
+#: recursos/0madagascar/datos/levels.py:74
+#: recursos/0madagascar/datos/levels.py:75
+#: recursos/0madagascar/datos/levels.py:76
+#: recursos/0madagascar/datos/levels.py:77
+#: recursos/0madagascar/datos/levels.py:78
+#: recursos/0madagascar/datos/levels.py:79
+#: recursos/0madagascar/datos/levels.py:80
+#: recursos/0madagascar/datos/levels.py:81
+#: recursos/0madagascar/datos/levels.py:82
+#: recursos/0madagascar/datos/levels.py:83
+msgid "Mahajanga"
+msgstr "Mahajanga"
+
+#: recursos/0madagascar/datos/0madagascar.py:12
+#: recursos/0madagascar/datos/0madagascar.py:20
+#: recursos/0madagascar/datos/levels.py:85
+#: recursos/0madagascar/datos/levels.py:86
+#: recursos/0madagascar/datos/levels.py:87
+#: recursos/0madagascar/datos/levels.py:88
+#: recursos/0madagascar/datos/levels.py:89
+#: recursos/0madagascar/datos/levels.py:90
+#: recursos/0madagascar/datos/levels.py:91
+#: recursos/0madagascar/datos/levels.py:92
+#: recursos/0madagascar/datos/levels.py:93
+#: recursos/0madagascar/datos/levels.py:94
+#: recursos/0madagascar/datos/levels.py:95
+#: recursos/0madagascar/datos/levels.py:96
+#: recursos/0madagascar/datos/levels.py:97
+#: recursos/0madagascar/datos/levels.py:98
+#: recursos/0madagascar/datos/levels.py:99
+#: recursos/0madagascar/datos/levels.py:100
+#: recursos/0madagascar/datos/levels.py:101
+#: recursos/0madagascar/datos/levels.py:102
+#: recursos/0madagascar/datos/levels.py:103
+#: recursos/0madagascar/datos/levels.py:104
+msgid "Antsiranana"
+msgstr "Antsiranana"
+
+#: recursos/0madagascar/datos/0madagascar.py:13
+#: recursos/0madagascar/datos/0madagascar.py:21
+#: recursos/0madagascar/datos/levels.py:106
+#: recursos/0madagascar/datos/levels.py:107
+#: recursos/0madagascar/datos/levels.py:108
+#: recursos/0madagascar/datos/levels.py:109
+#: recursos/0madagascar/datos/levels.py:110
+#: recursos/0madagascar/datos/levels.py:111
+#: recursos/0madagascar/datos/levels.py:112
+#: recursos/0madagascar/datos/levels.py:113
+#: recursos/0madagascar/datos/levels.py:114
+#: recursos/0madagascar/datos/levels.py:115
+#: recursos/0madagascar/datos/levels.py:116
+#: recursos/0madagascar/datos/levels.py:117
+#: recursos/0madagascar/datos/levels.py:118
+#: recursos/0madagascar/datos/levels.py:119
+#: recursos/0madagascar/datos/levels.py:120
+msgid "Tomasina"
+msgstr "Tomasina"
+
+#: recursos/0madagascar/datos/0madagascar.py:27
+#: recursos/0madagascar/datos/levels.py:14
+msgid "Manambato"
+msgstr "Manambato"
+
+#: recursos/0madagascar/datos/0madagascar.py:28
+#: recursos/0madagascar/datos/levels.py:15
+msgid "Mahatalaky"
+msgstr "Mahatalaky"
+
+#: recursos/0madagascar/datos/0madagascar.py:29
+#: recursos/0madagascar/datos/levels.py:16
+msgid "Tolanaro"
+msgstr "Tolanaro"
+
+#: recursos/0madagascar/datos/0madagascar.py:30
+#: recursos/0madagascar/datos/levels.py:17
+msgid "Beanky"
+msgstr "Beanky"
+
+#: recursos/0madagascar/datos/0madagascar.py:31
+#: recursos/0madagascar/datos/levels.py:18
+msgid "Talaky"
+msgstr "Talaky"
+
+#: recursos/0madagascar/datos/0madagascar.py:32
+#: recursos/0madagascar/datos/levels.py:19
+msgid "Betanty"
+msgstr "Betanty"
+
+#: recursos/0madagascar/datos/0madagascar.py:33
+#: recursos/0madagascar/datos/levels.py:20
+msgid "Lavanono"
+msgstr "Lavanono"
+
+#: recursos/0madagascar/datos/0madagascar.py:34
+#: recursos/0madagascar/datos/levels.py:21
+msgid "Beloha"
+msgstr "Beloha"
+
+#: recursos/0madagascar/datos/0madagascar.py:35
+#: recursos/0madagascar/datos/levels.py:22
+msgid "Etrobeke"
+msgstr "Etrobeke"
+
+#: recursos/0madagascar/datos/0madagascar.py:36
+#: recursos/0madagascar/datos/levels.py:23
+msgid "Androka"
+msgstr "Androka"
+
+#: recursos/0madagascar/datos/0madagascar.py:37
+#: recursos/0madagascar/datos/levels.py:24
+msgid "Ankazoabo"
+msgstr "Ankazoabo"
+
+#: recursos/0madagascar/datos/0madagascar.py:38
+#: recursos/0madagascar/datos/levels.py:25
+msgid "Vohombe"
+msgstr "Vohombe"
+
+#: recursos/0madagascar/datos/0madagascar.py:39
+#: recursos/0madagascar/datos/levels.py:26
+msgid "Efoetse"
+msgstr "Efoetse"
+
+#: recursos/0madagascar/datos/0madagascar.py:40
+#: recursos/0madagascar/datos/levels.py:27
+msgid "Beheloka"
+msgstr "Beheloka"
+
+#: recursos/0madagascar/datos/0madagascar.py:41
+#: recursos/0madagascar/datos/levels.py:28
+msgid "Betioky"
+msgstr "Betioky"
+
+#: recursos/0madagascar/datos/0madagascar.py:42
+#: recursos/0madagascar/datos/levels.py:29
+msgid "Anakao"
+msgstr "Anakao"
+
+#: recursos/0madagascar/datos/0madagascar.py:43
+#: recursos/0madagascar/datos/levels.py:30
+msgid "Bezaha"
+msgstr "Bezaha"
+
+#: recursos/0madagascar/datos/0madagascar.py:44
+#: recursos/0madagascar/datos/levels.py:31
+msgid "Ankilarivo"
+msgstr "Ankilarivo"
+
+#: recursos/0madagascar/datos/0madagascar.py:45
+#: recursos/0madagascar/datos/levels.py:32
+msgid "Manombo Atsimo"
+msgstr "Manombo Atsimo"
+
+#: recursos/0madagascar/datos/0madagascar.py:46
+#: recursos/0madagascar/datos/levels.py:33
+msgid "Tanambao"
+msgstr "Tanambao"
+
+#: recursos/0madagascar/datos/0madagascar.py:47
+#: recursos/0madagascar/datos/levels.py:34
+msgid "Ambohitsabo"
+msgstr "Ambohitsabo"
+
+#: recursos/0madagascar/datos/0madagascar.py:48
+#: recursos/0madagascar/datos/levels.py:35
+msgid "Benfandriana Atsimo"
+msgstr "Benfandriana Atsimo"
+
+#: recursos/0madagascar/datos/0madagascar.py:49
+#: recursos/0madagascar/datos/levels.py:36
+msgid "Andavadoaka"
+msgstr "Andavadoaka"
+
+#: recursos/0madagascar/datos/0madagascar.py:50
+#: recursos/0madagascar/datos/levels.py:37
+msgid "Morombe"
+msgstr "Morombe"
+
+#: recursos/0madagascar/datos/0madagascar.py:51
+#: recursos/0madagascar/datos/levels.py:38
+msgid "Nosy Ambositra"
+msgstr "Nosy Ambositra"
+
+#: recursos/0madagascar/datos/0madagascar.py:52
+#: recursos/0madagascar/datos/levels.py:39
+msgid "Ambohibe"
+msgstr "Ambohibe"
+
+#: recursos/0madagascar/datos/0madagascar.py:53
+#: recursos/0madagascar/datos/levels.py:40
+msgid "Ankoba"
+msgstr "Ankoba"
+
+#: recursos/0madagascar/datos/0madagascar.py:54
+#: recursos/0madagascar/datos/levels.py:41
+msgid "Manja"
+msgstr "Manja"
+
+#: recursos/0madagascar/datos/0madagascar.py:55
+#: recursos/0madagascar/datos/levels.py:42
+msgid "Belo"
+msgstr "Belo"
+
+#: recursos/0madagascar/datos/0madagascar.py:56
+#: recursos/0madagascar/datos/levels.py:43
+msgid "Manometimay"
+msgstr "Manometimay"
+
+#: recursos/0madagascar/datos/0madagascar.py:57
+#: recursos/0madagascar/datos/levels.py:44
+msgid "Morondava"
+msgstr "Morondava"
+
+#: recursos/0madagascar/datos/0madagascar.py:58
+#: recursos/0madagascar/datos/levels.py:45
+msgid "Mandronarivo"
+msgstr "Mandronarivo"
+
+#: recursos/0madagascar/datos/0madagascar.py:59
+#: recursos/0madagascar/datos/levels.py:46
+msgid "Malaimbandy"
+msgstr "Malaimbandy"
+
+#: recursos/0madagascar/datos/0madagascar.py:60
+#: recursos/0madagascar/datos/levels.py:47
+msgid "Beroboka Avaratra"
+msgstr "Beroboka Avaratra"
+
+#: recursos/0madagascar/datos/0madagascar.py:61
+#: recursos/0madagascar/datos/levels.py:48
+msgid "Belo Tsiribihina"
+msgstr "Belo Tsiribihina"
+
+#: recursos/0madagascar/datos/0madagascar.py:62
+#: recursos/0madagascar/datos/levels.py:49
+msgid "Andramasay"
+msgstr "Andramasay"
+
+#: recursos/0madagascar/datos/0madagascar.py:63
+#: recursos/0madagascar/datos/levels.py:50
+msgid "Adabozato"
+msgstr "Adabozato"
+
+#: recursos/0madagascar/datos/0madagascar.py:64
+#: recursos/0madagascar/datos/levels.py:51
+msgid "Behamotra"
+msgstr "Behamotra"
+
+#: recursos/0madagascar/datos/0madagascar.py:65
+#: recursos/0madagascar/datos/levels.py:52
+msgid "Appontement"
+msgstr "Appontement"
+
+#: recursos/0madagascar/datos/0madagascar.py:67
+#: recursos/0madagascar/datos/levels.py:54
+msgid "Bekopaka"
+msgstr "Bekopaka"
+
+#: recursos/0madagascar/datos/0madagascar.py:68
+#: recursos/0madagascar/datos/levels.py:55
+msgid "Bemamba"
+msgstr "Bemamba"
+
+#: recursos/0madagascar/datos/0madagascar.py:69
+#: recursos/0madagascar/datos/levels.py:56
+msgid "Ankiliroa"
+msgstr "Ankiliroa"
+
+#: recursos/0madagascar/datos/0madagascar.py:70
+#: recursos/0madagascar/datos/levels.py:57
+msgid "Maintirano"
+msgstr "Maintirano"
+
+#: recursos/0madagascar/datos/0madagascar.py:71
+#: recursos/0madagascar/datos/levels.py:58
+msgid "Ankatrafay"
+msgstr "Ankatrafay"
+
+#: recursos/0madagascar/datos/0madagascar.py:72
+#: recursos/0madagascar/datos/levels.py:59
+msgid "Tambohorano"
+msgstr "Tambohorano"
+
+#: recursos/0madagascar/datos/0madagascar.py:73
+#: recursos/0madagascar/datos/levels.py:60
+msgid "Onara"
+msgstr "Onara"
+
+#: recursos/0madagascar/datos/0madagascar.py:74
+#: recursos/0madagascar/datos/levels.py:61
+msgid "Makaraingo"
+msgstr "Makaraingo"
+
+#: recursos/0madagascar/datos/0madagascar.py:75
+#: recursos/0madagascar/datos/levels.py:62
+msgid "Andasibe"
+msgstr "Andasibe"
+
+#: recursos/0madagascar/datos/0madagascar.py:76
+#: recursos/0madagascar/datos/levels.py:63
+msgid "Besalampy"
+msgstr "Besalampy"
+
+#: recursos/0madagascar/datos/0madagascar.py:77
+#: recursos/0madagascar/datos/levels.py:64
+msgid "Vilamatsa"
+msgstr "Vilamatsa"
+
+#: recursos/0madagascar/datos/0madagascar.py:78
+#: recursos/0madagascar/datos/levels.py:65
+msgid "Ambohipaky"
+msgstr "Ambohipaky"
+
+#: recursos/0madagascar/datos/0madagascar.py:79
+#: recursos/0madagascar/datos/levels.py:66
+msgid "Maria"
+msgstr "Maria"
+
+#: recursos/0madagascar/datos/0madagascar.py:80
+#: recursos/0madagascar/datos/levels.py:67
+msgid "Antanandava"
+msgstr "Antanandava"
+
+#: recursos/0madagascar/datos/0madagascar.py:81
+#: recursos/0madagascar/datos/levels.py:68
+msgid "Ambakireny"
+msgstr "Ambakireny"
+
+#: recursos/0madagascar/datos/0madagascar.py:82
+#: recursos/0madagascar/datos/levels.py:69
+msgid "Manakana"
+msgstr "Manakana"
+
+#: recursos/0madagascar/datos/0madagascar.py:83
+#: recursos/0madagascar/datos/levels.py:70
+msgid "Ampandrana"
+msgstr "Ampandrana"
+
+#: recursos/0madagascar/datos/0madagascar.py:84
+#: recursos/0madagascar/datos/levels.py:71
+msgid "Besakay"
+msgstr "Besakay"
+
+#: recursos/0madagascar/datos/0madagascar.py:85
+#: recursos/0madagascar/datos/levels.py:72
+msgid "Matsitso"
+msgstr "Matsitso"
+
+#: recursos/0madagascar/datos/0madagascar.py:86
+#: recursos/0madagascar/datos/levels.py:73
+msgid "Ambato Boeny"
+msgstr "Ambato Boeny"
+
+#: recursos/0madagascar/datos/0madagascar.py:87
+#: recursos/0madagascar/datos/levels.py:74
+msgid "Marovoay"
+msgstr "Marovoay"
+
+#: recursos/0madagascar/datos/0madagascar.py:88
+#: recursos/0madagascar/datos/levels.py:75
+msgid "Morafeno"
+msgstr "Morafeno"
+
+#: recursos/0madagascar/datos/0madagascar.py:89
+#: recursos/0madagascar/datos/levels.py:76
+msgid "Tsianinkira"
+msgstr "Tsianinkira"
+
+#: recursos/0madagascar/datos/0madagascar.py:90
+#: recursos/0madagascar/datos/levels.py:77
+msgid "Mandritsara"
+msgstr "Mandritsara"
+
+#: recursos/0madagascar/datos/0madagascar.py:91
+#: recursos/0madagascar/datos/levels.py:78
+msgid "Anjajavy"
+msgstr "Anjajavy"
+
+#: recursos/0madagascar/datos/0madagascar.py:92
+#: recursos/0madagascar/datos/levels.py:79
+msgid "Analava"
+msgstr "Analava"
+
+#: recursos/0madagascar/datos/0madagascar.py:93
+#: recursos/0madagascar/datos/levels.py:80
+msgid "Maromandia"
+msgstr "Maromandia"
+
+#: recursos/0madagascar/datos/0madagascar.py:94
+#: recursos/0madagascar/datos/levels.py:81
+msgid "Antanantanana"
+msgstr "Antanantanana"
+
+#: recursos/0madagascar/datos/0madagascar.py:95
+#: recursos/0madagascar/datos/levels.py:82
+msgid "Antsahabe"
+msgstr "Antsahabe"
+
+#: recursos/0madagascar/datos/0madagascar.py:96
+#: recursos/0madagascar/datos/levels.py:83
+msgid "Marovotry"
+msgstr "Marovotry"
+
+#: recursos/0madagascar/datos/0madagascar.py:98
+#: recursos/0madagascar/datos/levels.py:85
+msgid "Ampohana"
+msgstr "Ampohana"
+
+#: recursos/0madagascar/datos/0madagascar.py:99
+#: recursos/0madagascar/datos/levels.py:86
+msgid "Ambanja"
+msgstr "Ambanja"
+
+#: recursos/0madagascar/datos/0madagascar.py:100
+#: recursos/0madagascar/datos/levels.py:87
+msgid "Ambilobe"
+msgstr "Ambilobe"
+
+#: recursos/0madagascar/datos/0madagascar.py:101
+#: recursos/0madagascar/datos/levels.py:88
+msgid "Ambatoharanana"
+msgstr "Ambatoharanana"
+
+#: recursos/0madagascar/datos/0madagascar.py:102
+#: recursos/0madagascar/datos/levels.py:89
+msgid "Bobasakoa"
+msgstr "Bobasakoa"
+
+#: recursos/0madagascar/datos/0madagascar.py:103
+#: recursos/0madagascar/datos/levels.py:90
+msgid "Bemanevikabe"
+msgstr "Bemanevikabe"
+
+#: recursos/0madagascar/datos/0madagascar.py:104
+#: recursos/0madagascar/datos/levels.py:91
+msgid "Anjiabe"
+msgstr "Anjiabe"
+
+#: recursos/0madagascar/datos/0madagascar.py:105
+#: recursos/0madagascar/datos/levels.py:92
+msgid "Irodo"
+msgstr "Irodo"
+
+#: recursos/0madagascar/datos/0madagascar.py:106
+#: recursos/0madagascar/datos/levels.py:93
+msgid "Ampisikinana"
+msgstr "Ampisikinana"
+
+#: recursos/0madagascar/datos/0madagascar.py:107
+#: recursos/0madagascar/datos/levels.py:94
+msgid "Daraina"
+msgstr "Daraina"
+
+#: recursos/0madagascar/datos/0madagascar.py:108
+#: recursos/0madagascar/datos/levels.py:95
+msgid "Apondra"
+msgstr "Apondra"
+
+#: recursos/0madagascar/datos/0madagascar.py:109
+#: recursos/0madagascar/datos/levels.py:96
+msgid "Zarambavy"
+msgstr "Zarambavy"
+
+#: recursos/0madagascar/datos/0madagascar.py:110
+#: recursos/0madagascar/datos/levels.py:97
+msgid "Doany"
+msgstr "Doany"
+
+#: recursos/0madagascar/datos/0madagascar.py:111
+#: recursos/0madagascar/datos/levels.py:98
+msgid "Tanambao-Daoud"
+msgstr "Tanambao-Daoud"
+
+#: recursos/0madagascar/datos/0madagascar.py:112
+#: recursos/0madagascar/datos/levels.py:99
+msgid "Sambava"
+msgstr "Sambava"
+
+#: recursos/0madagascar/datos/0madagascar.py:113
+#: recursos/0madagascar/datos/levels.py:100
+msgid "Farahalana"
+msgstr "Farahalana"
+
+#: recursos/0madagascar/datos/0madagascar.py:114
+#: recursos/0madagascar/datos/levels.py:101
+msgid "Andranofotsy"
+msgstr "Andranofotsy"
+
+#: recursos/0madagascar/datos/0madagascar.py:115
+#: recursos/0madagascar/datos/levels.py:102
+msgid "Antalaha"
+msgstr "Antalaha"
+
+#: recursos/0madagascar/datos/0madagascar.py:116
+#: recursos/0madagascar/datos/levels.py:103
+msgid "Ambohitralanana"
+msgstr "Ambohitralanana"
+
+#: recursos/0madagascar/datos/0madagascar.py:117
+#: recursos/0madagascar/datos/levels.py:104
+msgid "Ampanavoana"
+msgstr "Ampanavoana"
+
+#: recursos/0madagascar/datos/0madagascar.py:119
+#: recursos/0madagascar/datos/levels.py:106
+msgid "Maroantsetra"
+msgstr "Maroantsetra"
+
+#: recursos/0madagascar/datos/0madagascar.py:120
+#: recursos/0madagascar/datos/levels.py:107
+msgid "Seranambe"
+msgstr "Seranambe"
+
+#: recursos/0madagascar/datos/0madagascar.py:121
+#: recursos/0madagascar/datos/levels.py:108
+msgid "Antanambe"
+msgstr "Antanambe"
+
+#: recursos/0madagascar/datos/0madagascar.py:122
+#: recursos/0madagascar/datos/levels.py:109
+msgid "Ambodiatafana"
+msgstr "Ambodiatafana"
+
+#: recursos/0madagascar/datos/0madagascar.py:123
+#: recursos/0madagascar/datos/levels.py:110
+msgid "Vohilava"
+msgstr "Vohilava"
+
+#: recursos/0madagascar/datos/0madagascar.py:124
+#: recursos/0madagascar/datos/levels.py:111
+msgid "Andrangazaha"
+msgstr "Andrangazaha"
+
+#: recursos/0madagascar/datos/0madagascar.py:125
+#: recursos/0madagascar/datos/levels.py:112
+msgid "Fenoarivo Atsinanana"
+msgstr "Fenoarivo Atsinanana"
+
+#: recursos/0madagascar/datos/0madagascar.py:126
+#: recursos/0madagascar/datos/levels.py:113
+msgid "Amparafaravola"
+msgstr "Amparafaravola"
+
+#: recursos/0madagascar/datos/0madagascar.py:127
+#: recursos/0madagascar/datos/levels.py:114
+msgid "Ambatondrazaka"
+msgstr "Ambatondrazaka"
+
+#: recursos/0madagascar/datos/0madagascar.py:128
+#: recursos/0madagascar/datos/levels.py:115
+msgid "Ambila-Lemaitso"
+msgstr "Ambila-Lemaitso"
+
+#: recursos/0madagascar/datos/0madagascar.py:129
+#: recursos/0madagascar/datos/levels.py:116
+msgid "Moramanga"
+msgstr "Moramanga"
+
+#: recursos/0madagascar/datos/0madagascar.py:130
+#: recursos/0madagascar/datos/levels.py:117
+msgid "Vohitrampasina"
+msgstr "Vohitrampasina"
+
+#: recursos/0madagascar/datos/0madagascar.py:131
+#: recursos/0madagascar/datos/levels.py:118
+msgid "Vatomandry"
+msgstr "Vatomandry"
+
+#: recursos/0madagascar/datos/0madagascar.py:132
+#: recursos/0madagascar/datos/levels.py:119
+msgid "Ambodiharina"
+msgstr "Ambodiharina"
+
+#: recursos/0madagascar/datos/0madagascar.py:133
+#: recursos/0madagascar/datos/levels.py:120
+msgid "Masomeloka"
+msgstr "Masomeloka"
+
+#: recursos/0madagascar/datos/0madagascar.py:135
+#: recursos/0madagascar/datos/levels.py:122
+msgid "Ambohimena"
+msgstr "Ambohimena"
+
+#: recursos/0madagascar/datos/0madagascar.py:136
+#: recursos/0madagascar/datos/levels.py:123
+msgid "Fiadanana"
+msgstr "Fiadanana"
+
+#: recursos/0madagascar/datos/0madagascar.py:137
+#: recursos/0madagascar/datos/levels.py:124
+msgid "Tsiroanomandidy"
+msgstr "Tsiroanomandidy"
+
+#: recursos/0madagascar/datos/0madagascar.py:138
+#: recursos/0madagascar/datos/levels.py:125
+msgid "Sakay"
+msgstr "Sakay"
+
+#: recursos/0madagascar/datos/0madagascar.py:139
+#: recursos/0madagascar/datos/levels.py:126
+msgid "Ambatolampy"
+msgstr "Ambatolampy"
+
+#: recursos/0madagascar/datos/0madagascar.py:140
+#: recursos/0madagascar/datos/levels.py:127
+msgid "Antsirabe"
+msgstr "Antsirabe"
+
+#: recursos/0madagascar/datos/0madagascar.py:142
+#: recursos/0madagascar/datos/levels.py:129
+msgid "Lopary"
+msgstr "Lopary"
+
+#: recursos/0madagascar/datos/0madagascar.py:143
+#: recursos/0madagascar/datos/levels.py:130
+msgid "Ranomena"
+msgstr "Ranomena"
+
+#: recursos/0madagascar/datos/0madagascar.py:144
+#: recursos/0madagascar/datos/levels.py:131
+msgid "Isahara"
+msgstr "Isahara"
+
+#: recursos/0madagascar/datos/0madagascar.py:145
+#: recursos/0madagascar/datos/levels.py:132
+msgid "Sandravinany"
+msgstr "Sandravinany"
+
+#: recursos/0madagascar/datos/0madagascar.py:146
+#: recursos/0madagascar/datos/levels.py:133
+msgid "Soavina"
+msgstr "Soavina"
+
+#: recursos/0madagascar/datos/0madagascar.py:147
+#: recursos/0madagascar/datos/levels.py:134
+msgid "Nosy-Varika"
+msgstr "Nosy-Varika"
+
+#: recursos/0madagascar/datos/0madagascar.py:148
+#: recursos/0madagascar/datos/levels.py:135
+msgid "Amborompotsy"
+msgstr "Amborompotsy"
+
+#: recursos/0madagascar/datos/0madagascar.py:149
+#: recursos/0madagascar/datos/levels.py:136
+msgid "Ambatomainty"
+msgstr "Ambatomainty"
+
+#: recursos/0madagascar/datos/0madagascar.py:150
+#: recursos/0madagascar/datos/levels.py:137
+msgid "Mahela"
+msgstr "Mahela"
+
+#: recursos/0madagascar/datos/0madagascar.py:151
+#: recursos/0madagascar/datos/levels.py:138
+msgid "Mananjary"
+msgstr "Mananjary"
+
+#: recursos/0madagascar/datos/0madagascar.py:152
+#: recursos/0madagascar/datos/levels.py:139
+msgid "Ampasimanjeva"
+msgstr "Ampasimanjeva"
+
+#: recursos/0madagascar/datos/0madagascar.py:153
+#: recursos/0madagascar/datos/levels.py:140
+msgid "Sahasinaka"
+msgstr "Sahasinaka"
+
+#: recursos/0madagascar/datos/0madagascar.py:154
+#: recursos/0madagascar/datos/levels.py:141
+msgid "Manakara"
+msgstr "Manakara"
+
+#: recursos/0madagascar/datos/0madagascar.py:155
+#: recursos/0madagascar/datos/levels.py:142
+msgid "Menamaty Lloto"
+msgstr "Menamaty Lloto"
+
+#: recursos/0madagascar/datos/0madagascar.py:156
+#: recursos/0madagascar/datos/levels.py:143
+msgid "Vohipeno"
+msgstr "Vohipeno"
+
+#: recursos/0madagascar/datos/0madagascar.py:157
+#: recursos/0madagascar/datos/levels.py:144
+msgid "Ranohira"
+msgstr "Ranohira"
+
+#: recursos/0madagascar/datos/0madagascar.py:158
+#: recursos/0madagascar/datos/levels.py:145
+msgid "Farafangana"
+msgstr "Farafangana"
+
+#: recursos/0madagascar/datos/0madagascar.py:160
+#: recursos/0madagascar/datos/levels.py:146
+msgid "Nosy Be"
+msgstr "Nosy Be"
+
+#: recursos/0madagascar/datos/0madagascar.py:170
+msgid "Capital:"
+msgstr "Capitale :"
+
+#~ msgid "(18°55′ S - 47°31′ W)"
+#~ msgstr ""
+
+#: recursos/0madagascar/datos/0madagascar.py:171
+msgid "Language:"
+msgstr "Langue :"
+
+#: recursos/0madagascar/datos/0madagascar.py:171
+msgid "Malagasy"
+msgstr "Malgache"
+
+#: recursos/0madagascar/datos/0madagascar.py:171
+msgid "French"
+msgstr "Français"
+
+#: recursos/0madagascar/datos/0madagascar.py:172
+msgid "Government:"
+msgstr "Gouvernement :"
+
+#: recursos/0madagascar/datos/0madagascar.py:172
+msgid "Caretaker government"
+msgstr "Gouvernement interimaire"
+
+#: recursos/0madagascar/datos/0madagascar.py:173
+msgid "President:"
+msgstr "Président :"
+
+#: recursos/0madagascar/datos/0madagascar.py:173
+msgid "Andry Rajoelina"
+msgstr "Andry Rajoelina"
+
+#: recursos/0madagascar/datos/0madagascar.py:174
+msgid "Prime minister:"
+msgstr "Premier ministre"
+
+#: recursos/0madagascar/datos/0madagascar.py:174
+msgid "Omer Beriziky"
+msgstr "Omer Beriziky"
+
+#: recursos/0madagascar/datos/0madagascar.py:175
+msgid "Independence:"
+msgstr "Indépendance :"
+
+#: recursos/0madagascar/datos/0madagascar.py:175
+msgid "from France"
+msgstr "de la France"
+
+#: recursos/0madagascar/datos/0madagascar.py:176
+msgid "26 of June of 1960 "
+msgstr "26 juin 1960 "
+
+#: recursos/0madagascar/datos/0madagascar.py:177
+msgid "Area:"
+msgstr "Aire"
+
+#~ msgid "587.041 km² (47th)"
+#~ msgstr ""
+
+#: recursos/0madagascar/datos/0madagascar.py:178
+msgid "Population:"
+msgstr "Population :"
+
+#: recursos/0madagascar/datos/0madagascar.py:178
+msgid "22.005.222 (53rd)"
+msgstr "22 005 222 (53ème)"
+
+#: recursos/0madagascar/datos/0madagascar.py:179
+msgid "GDP:"
+msgstr "PIB:"
+
+#: recursos/0madagascar/datos/0madagascar.py:179
+msgid "USD 20.400 billion"
+msgstr "20.4 milliards de $"
+
+#: recursos/0madagascar/datos/0madagascar.py:180
+msgid "HDI:"
+msgstr "IDH:"
+
+#: recursos/0madagascar/datos/0madagascar.py:180
+msgid "Low - 0,435 (135th)"
+msgstr "Bas - 0.435 (135ème)"
+
+#: recursos/0madagascar/datos/0madagascar.py:181
+msgid "Currency:"
+msgstr "Monnaie :"
+
+#: recursos/0madagascar/datos/0madagascar.py:181
+msgid "Malagasy ariary"
+msgstr "Ariary Malgache"
+
+#: recursos/0madagascar/datos/explorations.py:6
+msgid "Provinces"
+msgstr "Provinces"
+
+#: recursos/0madagascar/datos/explorations.py:13
+msgid "Provincial capitals"
+msgstr "Capitales de province"
+
+#: recursos/0madagascar/datos/explorations.py:20
+#: recursos/0madagascar/datos/levels.py:9
+msgid "Cities"
+msgstr "Villes"
+
+#: recursos/0madagascar/datos/explorations.py:27
+#: recursos/0madagascar/datos/levels.py:152
+msgid "Waterways"
+msgstr "Voies navigables"
+
+#: recursos/0madagascar/datos/explorations.py:34
+msgid "Routes"
+msgstr "Routes"
+
+#: recursos/0madagascar/datos/levels.py:14
+#: recursos/0madagascar/datos/levels.py:15
+#: recursos/0madagascar/datos/levels.py:16
+#: recursos/0madagascar/datos/levels.py:17
+#: recursos/0madagascar/datos/levels.py:18
+#: recursos/0madagascar/datos/levels.py:19
+#: recursos/0madagascar/datos/levels.py:20
+#: recursos/0madagascar/datos/levels.py:21
+#: recursos/0madagascar/datos/levels.py:22
+#: recursos/0madagascar/datos/levels.py:23
+#: recursos/0madagascar/datos/levels.py:24
+#: recursos/0madagascar/datos/levels.py:25
+#: recursos/0madagascar/datos/levels.py:26
+#: recursos/0madagascar/datos/levels.py:27
+#: recursos/0madagascar/datos/levels.py:28
+#: recursos/0madagascar/datos/levels.py:29
+#: recursos/0madagascar/datos/levels.py:30
+#: recursos/0madagascar/datos/levels.py:31
+#: recursos/0madagascar/datos/levels.py:32
+#: recursos/0madagascar/datos/levels.py:33
+#: recursos/0madagascar/datos/levels.py:34
+#: recursos/0madagascar/datos/levels.py:35
+#: recursos/0madagascar/datos/levels.py:36
+#: recursos/0madagascar/datos/levels.py:37
+#: recursos/0madagascar/datos/levels.py:38
+#: recursos/0madagascar/datos/levels.py:39
+#: recursos/0madagascar/datos/levels.py:40
+#: recursos/0madagascar/datos/levels.py:41
+#: recursos/0madagascar/datos/levels.py:42
+#: recursos/0madagascar/datos/levels.py:43
+#: recursos/0madagascar/datos/levels.py:44
+#: recursos/0madagascar/datos/levels.py:45
+#: recursos/0madagascar/datos/levels.py:46
+#: recursos/0madagascar/datos/levels.py:47
+#: recursos/0madagascar/datos/levels.py:48
+#: recursos/0madagascar/datos/levels.py:49
+#: recursos/0madagascar/datos/levels.py:50
+#: recursos/0madagascar/datos/levels.py:51
+#: recursos/0madagascar/datos/levels.py:52
+#: recursos/0madagascar/datos/levels.py:54
+#: recursos/0madagascar/datos/levels.py:55
+#: recursos/0madagascar/datos/levels.py:56
+#: recursos/0madagascar/datos/levels.py:57
+#: recursos/0madagascar/datos/levels.py:58
+#: recursos/0madagascar/datos/levels.py:59
+#: recursos/0madagascar/datos/levels.py:60
+#: recursos/0madagascar/datos/levels.py:61
+#: recursos/0madagascar/datos/levels.py:62
+#: recursos/0madagascar/datos/levels.py:63
+#: recursos/0madagascar/datos/levels.py:64
+#: recursos/0madagascar/datos/levels.py:65
+#: recursos/0madagascar/datos/levels.py:66
+#: recursos/0madagascar/datos/levels.py:67
+#: recursos/0madagascar/datos/levels.py:68
+#: recursos/0madagascar/datos/levels.py:69
+#: recursos/0madagascar/datos/levels.py:70
+#: recursos/0madagascar/datos/levels.py:71
+#: recursos/0madagascar/datos/levels.py:72
+#: recursos/0madagascar/datos/levels.py:73
+#: recursos/0madagascar/datos/levels.py:74
+#: recursos/0madagascar/datos/levels.py:75
+#: recursos/0madagascar/datos/levels.py:76
+#: recursos/0madagascar/datos/levels.py:77
+#: recursos/0madagascar/datos/levels.py:78
+#: recursos/0madagascar/datos/levels.py:79
+#: recursos/0madagascar/datos/levels.py:80
+#: recursos/0madagascar/datos/levels.py:81
+#: recursos/0madagascar/datos/levels.py:82
+#: recursos/0madagascar/datos/levels.py:83
+#: recursos/0madagascar/datos/levels.py:85
+#: recursos/0madagascar/datos/levels.py:86
+#: recursos/0madagascar/datos/levels.py:87
+#: recursos/0madagascar/datos/levels.py:88
+#: recursos/0madagascar/datos/levels.py:89
+#: recursos/0madagascar/datos/levels.py:90
+#: recursos/0madagascar/datos/levels.py:91
+#: recursos/0madagascar/datos/levels.py:92
+#: recursos/0madagascar/datos/levels.py:93
+#: recursos/0madagascar/datos/levels.py:94
+#: recursos/0madagascar/datos/levels.py:95
+#: recursos/0madagascar/datos/levels.py:96
+#: recursos/0madagascar/datos/levels.py:97
+#: recursos/0madagascar/datos/levels.py:98
+#: recursos/0madagascar/datos/levels.py:99
+#: recursos/0madagascar/datos/levels.py:100
+#: recursos/0madagascar/datos/levels.py:101
+#: recursos/0madagascar/datos/levels.py:102
+#: recursos/0madagascar/datos/levels.py:103
+#: recursos/0madagascar/datos/levels.py:104
+#: recursos/0madagascar/datos/levels.py:106
+#: recursos/0madagascar/datos/levels.py:107
+#: recursos/0madagascar/datos/levels.py:108
+#: recursos/0madagascar/datos/levels.py:109
+#: recursos/0madagascar/datos/levels.py:110
+#: recursos/0madagascar/datos/levels.py:111
+#: recursos/0madagascar/datos/levels.py:112
+#: recursos/0madagascar/datos/levels.py:113
+#: recursos/0madagascar/datos/levels.py:114
+#: recursos/0madagascar/datos/levels.py:115
+#: recursos/0madagascar/datos/levels.py:116
+#: recursos/0madagascar/datos/levels.py:117
+#: recursos/0madagascar/datos/levels.py:118
+#: recursos/0madagascar/datos/levels.py:119
+#: recursos/0madagascar/datos/levels.py:120
+#: recursos/0madagascar/datos/levels.py:122
+#: recursos/0madagascar/datos/levels.py:123
+#: recursos/0madagascar/datos/levels.py:124
+#: recursos/0madagascar/datos/levels.py:125
+#: recursos/0madagascar/datos/levels.py:126
+#: recursos/0madagascar/datos/levels.py:127
+#: recursos/0madagascar/datos/levels.py:129
+#: recursos/0madagascar/datos/levels.py:130
+#: recursos/0madagascar/datos/levels.py:131
+#: recursos/0madagascar/datos/levels.py:132
+#: recursos/0madagascar/datos/levels.py:133
+#: recursos/0madagascar/datos/levels.py:134
+#: recursos/0madagascar/datos/levels.py:135
+#: recursos/0madagascar/datos/levels.py:136
+#: recursos/0madagascar/datos/levels.py:137
+#: recursos/0madagascar/datos/levels.py:138
+#: recursos/0madagascar/datos/levels.py:139
+#: recursos/0madagascar/datos/levels.py:140
+#: recursos/0madagascar/datos/levels.py:141
+#: recursos/0madagascar/datos/levels.py:142
+#: recursos/0madagascar/datos/levels.py:143
+#: recursos/0madagascar/datos/levels.py:144
+#: recursos/0madagascar/datos/levels.py:145
+#, python-format
+msgid "It's in %s"
+msgstr "C'est dans %s"
+
+#: recursos/0madagascar/datos/levels.py:146
+msgid "It's a island"
+msgstr "C'est une île"
+
+#: recursos/comun/datos/commons.py:8
+msgid "Hello friends..."
+msgstr "Bonjour les amis..."
+
+#: recursos/comun/datos/commons.py:9
+msgid ""
+"...tomorrow I have a\n"
+"test about Madagascar..."
+msgstr ""
+"… Demain j'ai un test\n"
+"à propos de Madagascar…"
+
+#: recursos/comun/datos/commons.py:10
+msgid "...and I know nothing!!!"
+msgstr "… Mais je ne sais rien !"
+
+#: recursos/comun/datos/commons.py:11
+msgid "...what do I do???"
+msgstr "… Qu'est-ce que je fais ?"
+
+#: recursos/comun/datos/commons.py:12
+msgid "Can I ask you something?"
+msgstr "Est-ce que peux te demander quelque chose ?"
+
+#: recursos/comun/datos/commons.py:13
+msgid "Will you help me?"
+msgstr "Pourras-tu m'aider ?"
+
+#: recursos/comun/datos/commons.py:17
+msgid "We have to find"
+msgstr "Nous devons trouver"
+
+#: recursos/comun/datos/commons.py:18
+msgid "Now we have to find"
+msgstr "Maintenant nous devons trouver"
+
+#: recursos/comun/datos/commons.py:19
+msgid "We need to find"
+msgstr "Nous avons besoin de trouver"
+
+#: recursos/comun/datos/commons.py:23
+msgid "Can you tell me where it is?"
+msgstr "Peux-tu me dire où c'est ?"
+
+#: recursos/comun/datos/commons.py:24
+msgid "Where is it?"
+msgstr "Où est-ce ?"
+
+#: recursos/comun/datos/commons.py:25
+msgid "Can you show me where it is?"
+msgstr "Peux-tu me montrer où c'est ?"
+
+#: recursos/comun/datos/commons.py:26
+msgid "Can you find it?"
+msgstr "Peux-tu le trouver ?"
+
+#: recursos/comun/datos/commons.py:30
+msgid "Very well!"
+msgstr "Très bien !"
+
+#: recursos/comun/datos/commons.py:31
+msgid "Brilliant!"
+msgstr "Excellent !"
+
+#: recursos/comun/datos/commons.py:32
+msgid "You found it!"
+msgstr "Tu as trouvé !"
+
+#: recursos/comun/datos/commons.py:33
+msgid "Yes!"
+msgstr "Oui !"
+
+#: recursos/comun/datos/commons.py:37
+msgid "No, that is not correct"
+msgstr "Non, ce n'est pas correct"
+
+#: recursos/comun/datos/commons.py:38
+msgid "No, it is not there"
+msgstr "Non, ce n'est pas là"
+
+#: recursos/comun/datos/commons.py:39
+msgid "No, that seems to be wrong"
+msgstr "Non, ça parait faux"
+
+#: recursos/comun/datos/commons.py:40
+msgid "That is not correct"
+msgstr "Ce n'est pas correct"
+
+#: recursos/comun/datos/commons.py:44
+msgid ""
+"Now I'm ready\n"
+"for tomorrow...\n"
+"I'm going to play...\n"
+"Thanks for your help!"
+msgstr ""
+"Maintenant je suis prêt\n"
+"pour demain...\n"
+"Je vais aller jouer...\n"
+"Merci de ton aide !"
+
+#: recursos/comun/datos/commons.py:45
+msgid ""
+"We made it!\n"
+"I'm going to play ball...\n"
+"Bye and thanks\n"
+"for helping me!"
+msgstr ""
+"Nous avons réussi !\n"
+"Je vais aller jouer au ballon...\n"
+"Au revoir et merci\n"
+"de m'avoir aidé !"
+
+#: recursos/comun/datos/commons.py:46
+msgid ""
+"We did it!\n"
+"I'm ready for tomorrow...\n"
+"I'm playing a while...\n"
+"Until next time!"
+msgstr ""
+"Nous l'avons fait !\n"
+"Je suis prêt pour demain...\n"
+"Je vais jouer un peu...\n"
+"Jusqu'à la prochaine fois !"
+
+#: recursos/comun/datos/commons.py:50
+msgid ""
+"Better luck next time\n"
+"I'll play a while...\n"
+"Thanks!"
+msgstr ""
+"On aura plus de chance la prochaine fois\n"
+"Je vais jouer un peu...\n"
+"Merci !"
+
+#: recursos/comun/datos/commons.py:51
+msgid ""
+"The next time will be better\n"
+"I'm going to play ball...\n"
+"Thanks!"
+msgstr ""
+"La prochaine fois ce sera mieux\n"
+"Je vais jouer au ballon...\n"
+"Merci !"
+
+#: recursos/comun/datos/commons.py:52
+msgid ""
+"Please try again...\n"
+"I'm going to play...\n"
+"Thanks!"
+msgstr ""
+"Essaye encore...\n"
+"Je vais aller jouer...\n"
+"Merci !"
+
+#: recursos/comun/datos/commons.py:56
+msgid "Author: Alan Aguiar"
+msgstr "Auteur: Alan Aguiar"
+
+#: recursos/comun/datos/commons.py:57
+msgid "Send corrections, comments or suggestions to: alanjas@hotmail.com"
+msgstr ""
+"Envoyer vos corrections, commentaires et suggestions à: alanjas@hotmail.com"
+
+#: recursos/comun/datos/commons.py:59
+msgid "This program is free software developed by the community"
+msgstr "Ce programme est un logiciel libre développé par la communauté"
+
+#: recursos/comun/datos/commons.py:60
+msgid "For more information visit http://ceibaljam.org"
+msgstr "Pour plus d'information http://ceibaljam.org"
+
+#: recursos/comun/datos/commons.py:62
+msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
+msgstr "Ce programme est basé sur 'Conozco Uruguay' (Auteur: Gabriel Eirea)"
+
+#: recursos/comun/datos/commons.py:63
+msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
+msgstr ""
+"Sons en provenance de freesound.org: btn117.wav avec l'aimable autorisation "
+"de junggle."
+
+#: recursos/comun/datos/commons.py:64
+msgid "Font: Share-Regular.ttf of urbanfonts.com"
+msgstr "Fonte: Share-Regular.ttf depuis urbanfonts.com"
+
+#: recursos/0madagascar/datos/0madagascar.py:177
+msgid "587.041 km (47th)"
+msgstr "587 041 km (47ème)"
+
+#: recursos/0madagascar/datos/0madagascar.py:170
+msgid "(1855 S - 4731 W)"
+msgstr "(1855 S - 4731 W)"
