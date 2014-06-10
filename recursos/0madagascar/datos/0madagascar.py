@@ -167,7 +167,7 @@ RIVERS = [
 ROUTES = []
 
 STATS = [
-    (_('Capital:'), _('Antananarivo') + _("(18°55′ S - 47°31′ W)")),
+    (_('Capital:'), _('Antananarivo') + _("(18°55' S - 47°31' W)")),
     (_('Language:'), _('Malagasy'), _('French')),
     (_('Government:'), _('Caretaker government')),
     (_('President:'), _('Andry Rajoelina')),
