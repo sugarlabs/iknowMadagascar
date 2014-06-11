@@ -245,6 +245,8 @@ class Conozco():
 
     def mostrarTexto(self,texto,fuente,posicion,color):
         """Muestra texto en una determinada posicion"""
+        if not(type(texto) == unicode):
+            texto = unicode(texto, 'UTF-8')
         text = fuente.render(texto, 1, color)
         textrect = text.get_rect()
         textrect.center = posicion
