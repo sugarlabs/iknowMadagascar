@@ -140,32 +140,32 @@ msgstr "Statistiques de %s"
 #: conozco.py:609
 #, python-format
 msgid "Total score: %s"
-msgstr "Score total : %s"
+msgstr "Score total: %s"
 
 #: conozco.py:615
 #, python-format
 msgid "Game average score: %s"
-msgstr "Score moyen du jeu : %s"
+msgstr "Score moyen du jeu: %s"
 
 #: conozco.py:621
 #, python-format
 msgid "Times using Explore Mode: %s"
-msgstr "Temps d'utilisation du mode exploration : %s"
+msgstr "Temps d'utilisation du mode exploration: %s"
 
 #: conozco.py:627
 #, python-format
 msgid "Places Explored: %s"
-msgstr "Lieux explorés : %s"
+msgstr "Lieux explorés: %s"
 
 #: conozco.py:633
 #, python-format
 msgid "Times using Game Mode: %s"
-msgstr "Temps d'utilisation du mode jeu : %s"
+msgstr "Temps d'utilisation du mode jeu: %s"
 
 #: conozco.py:641
 #, python-format
 msgid "Total time: %s minutes"
-msgstr "Temps total : %s minutes"
+msgstr "Temps total: %s minutes"
 
 #: conozco.py:680
 msgid "You have chosen the map "
@@ -1019,14 +1019,14 @@ msgstr "Nosy Be"
 
 #: recursos/0madagascar/datos/0madagascar.py:170
 msgid "Capital:"
-msgstr "Capitale :"
+msgstr "Capitale:"
 
 #~ msgid "(18°55′ S - 47°31′ W)"
 #~ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:171
 msgid "Language:"
-msgstr "Langue :"
+msgstr "Langue:"
 
 #: recursos/0madagascar/datos/0madagascar.py:171
 msgid "Malagasy"
@@ -1038,7 +1038,7 @@ msgstr "Français"
 
 #: recursos/0madagascar/datos/0madagascar.py:172
 msgid "Government:"
-msgstr "Gouvernement :"
+msgstr "Gouvernement:"
 
 #: recursos/0madagascar/datos/0madagascar.py:172
 msgid "Caretaker government"
@@ -1046,7 +1046,7 @@ msgstr "Gouvernement interimaire"
 
 #: recursos/0madagascar/datos/0madagascar.py:173
 msgid "President:"
-msgstr "Président :"
+msgstr "Président:"
 
 #: recursos/0madagascar/datos/0madagascar.py:173
 msgid "Andry Rajoelina"
@@ -1062,7 +1062,7 @@ msgstr "Omer Beriziky"
 
 #: recursos/0madagascar/datos/0madagascar.py:175
 msgid "Independence:"
-msgstr "Indépendance :"
+msgstr "Indépendance:"
 
 #: recursos/0madagascar/datos/0madagascar.py:175
 msgid "from France"
@@ -1081,7 +1081,7 @@ msgstr "Aire"
 
 #: recursos/0madagascar/datos/0madagascar.py:178
 msgid "Population:"
-msgstr "Population :"
+msgstr "Population:"
 
 #: recursos/0madagascar/datos/0madagascar.py:178
 msgid "22.005.222 (53rd)"
@@ -1105,7 +1105,7 @@ msgstr "Bas - 0.435 (135ème)"
 
 #: recursos/0madagascar/datos/0madagascar.py:181
 msgid "Currency:"
-msgstr "Monnaie :"
+msgstr "Monnaie:"
 
 #: recursos/0madagascar/datos/0madagascar.py:181
 msgid "Malagasy ariary"
