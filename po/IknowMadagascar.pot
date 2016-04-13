@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-28 20:54-0200\n"
+"POT-Creation-Date: 2016-04-12 19:54-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,138 +17,186 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: activity/activity.info:2 recursos/comun/datos/commons.py:5
+#: activity/activity.info:2
+#: recursos/comun/datos/commons.py:5
 msgid "I know Madagascar"
 msgstr ""
 
-#: conozco.py:247 conozco.py:362 conozco.py:386 conozco.py:442 conozco.py:526
+#: conozco.py:263
+#: conozco.py:373
+#: conozco.py:398
+#: conozco.py:454
+#: conozco.py:535
 #, python-format
 msgid "Cannot open %s"
 msgstr ""
 
-#: conozco.py:476
+#: conozco.py:485
 #, python-format
 msgid ""
 "the city of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:479
+#: conozco.py:488
 #, python-format
 msgid ""
 "the department of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:482
+#: conozco.py:491
 #, python-format
 msgid ""
 "the province of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:485
+#: conozco.py:494
 #, python-format
 msgid ""
 "the district of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:488
+#: conozco.py:497
 #, python-format
 msgid ""
 "the state of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:491
+#: conozco.py:500
 #, python-format
 msgid ""
 "the region of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:494
+#: conozco.py:503
 #, python-format
 msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:497
+#: conozco.py:506
 #, python-format
 msgid ""
 "the taluka of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:500
+#: conozco.py:509
 #, python-format
 msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
 
-#: conozco.py:503
+#: conozco.py:512
 #, python-format
 msgid "the %s"
 msgstr ""
 
-#: conozco.py:506
+#: conozco.py:515
 #, python-format
 msgid "the %(route)s"
 msgstr ""
 
-#: conozco.py:564
+#: conozco.py:570
 #, python-format
 msgid "About %s"
 msgstr ""
 
-#: conozco.py:578
+#: conozco.py:584
+#: conozco.py:660
 msgid "Press any key to return"
 msgstr ""
 
-#: conozco.py:609
+#: conozco.py:615
+#, python-format
+msgid "Stats of %s"
+msgstr ""
+
+#: conozco.py:621
+#, python-format
+msgid "Total score: %s"
+msgstr ""
+
+#: conozco.py:627
+#, python-format
+msgid "Game average score: %s"
+msgstr ""
+
+#: conozco.py:633
+#, python-format
+msgid "Times using Explore Mode: %s"
+msgstr ""
+
+#: conozco.py:639
+#, python-format
+msgid "Places Explored: %s"
+msgstr ""
+
+#: conozco.py:645
+#, python-format
+msgid "Times using Game Mode: %s"
+msgstr ""
+
+#: conozco.py:653
+#, python-format
+msgid "Total time: %s minutes"
+msgstr ""
+
+#: conozco.py:691
 msgid "You have chosen the map "
 msgstr ""
 
-#: conozco.py:615
+#: conozco.py:697
 msgid "Play"
 msgstr ""
 
-#: conozco.py:631
+#: conozco.py:713
 msgid "Explore"
 msgstr ""
 
-#: conozco.py:651 conozco.py:795
+#: conozco.py:733
+#: conozco.py:893
 msgid "About this game"
 msgstr ""
 
-#: conozco.py:659
+#: conozco.py:741
+#: conozco.py:901
+msgid "Stats"
+msgstr ""
+
+#: conozco.py:749
 msgid "Return"
 msgstr ""
 
-#: conozco.py:716
+#: conozco.py:813
 msgid "Choose the map to use"
 msgstr ""
 
-#: conozco.py:736
+#: conozco.py:833
 msgid "Previous page"
 msgstr ""
 
-#: conozco.py:781
+#: conozco.py:878
 msgid "Next page"
 msgstr ""
 
-#: conozco.py:802
+#: conozco.py:909
 msgid "Exit"
 msgstr ""
 
-#: conozco.py:1267 conozco.py:1465
+#: conozco.py:1450
+#: conozco.py:1604
 msgid "End"
 msgstr ""
 
-#: conozco.py:1278
+#: conozco.py:1461
 msgid "Show all"
 msgstr ""
 
@@ -166,7 +214,7 @@ msgid "Cities"
 msgstr ""
 
 #: recursos/0madagascar/datos/explorations.py:27
-#: recursos/0madagascar/datos/levels.py:151
+#: recursos/0madagascar/datos/levels.py:152
 msgid "Waterways"
 msgstr ""
 
@@ -962,7 +1010,7 @@ msgstr ""
 #: recursos/0madagascar/datos/levels.py:127
 #: recursos/0madagascar/datos/0madagascar.py:10
 #: recursos/0madagascar/datos/0madagascar.py:17
-#: recursos/0madagascar/datos/0madagascar.py:168
+#: recursos/0madagascar/datos/0madagascar.py:170
 msgid "Antananarivo"
 msgstr ""
 
@@ -1098,103 +1146,112 @@ msgstr ""
 msgid "Farafangana"
 msgstr ""
 
+#: recursos/0madagascar/datos/levels.py:146
+#: recursos/0madagascar/datos/0madagascar.py:160
+msgid "Nosy Be"
+msgstr ""
+
+#: recursos/0madagascar/datos/levels.py:146
+msgid "It's a island"
+msgstr ""
+
 #: recursos/0madagascar/datos/0madagascar.py:5
 msgid "Madagascar"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:168
+#: recursos/0madagascar/datos/0madagascar.py:170
 msgid "Capital:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:168
-msgid "(18°55′ S - 47°31′ W)"
+#: recursos/0madagascar/datos/0madagascar.py:170
+msgid "(18°55' S - 47°31' W)"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:169
+#: recursos/0madagascar/datos/0madagascar.py:171
 msgid "Language:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:169
+#: recursos/0madagascar/datos/0madagascar.py:171
 msgid "Malagasy"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:169
+#: recursos/0madagascar/datos/0madagascar.py:171
 msgid "French"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:170
+#: recursos/0madagascar/datos/0madagascar.py:172
 msgid "Government:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:170
+#: recursos/0madagascar/datos/0madagascar.py:172
 msgid "Caretaker government"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:171
+#: recursos/0madagascar/datos/0madagascar.py:173
 msgid "President:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:171
+#: recursos/0madagascar/datos/0madagascar.py:173
 msgid "Andry Rajoelina"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:172
+#: recursos/0madagascar/datos/0madagascar.py:174
 msgid "Prime minister:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:172
+#: recursos/0madagascar/datos/0madagascar.py:174
 msgid "Omer Beriziky"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:173
+#: recursos/0madagascar/datos/0madagascar.py:175
 msgid "Independence:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:173
+#: recursos/0madagascar/datos/0madagascar.py:175
 msgid "from France"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:174
+#: recursos/0madagascar/datos/0madagascar.py:176
 msgid "26 of June of 1960 "
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:175
+#: recursos/0madagascar/datos/0madagascar.py:177
 msgid "Area:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:175
+#: recursos/0madagascar/datos/0madagascar.py:177
 msgid "587.041 km² (47th)"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:176
+#: recursos/0madagascar/datos/0madagascar.py:178
 msgid "Population:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:176
+#: recursos/0madagascar/datos/0madagascar.py:178
 msgid "22.005.222 (53rd)"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:177
+#: recursos/0madagascar/datos/0madagascar.py:179
 msgid "GDP:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:177
+#: recursos/0madagascar/datos/0madagascar.py:179
 msgid "USD 20.400 billion"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:178
+#: recursos/0madagascar/datos/0madagascar.py:180
 msgid "HDI:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:178
+#: recursos/0madagascar/datos/0madagascar.py:180
 msgid "Low - 0,435 (135th)"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:179
+#: recursos/0madagascar/datos/0madagascar.py:181
 msgid "Currency:"
 msgstr ""
 
-#: recursos/0madagascar/datos/0madagascar.py:179
+#: recursos/0madagascar/datos/0madagascar.py:181
 msgid "Malagasy ariary"
 msgstr ""
 
@@ -1205,7 +1262,7 @@ msgstr ""
 #: recursos/comun/datos/commons.py:9
 msgid ""
 "...tomorrow I have a\n"
-"test about America..."
+"test about Madagascar..."
 msgstr ""
 
 #: recursos/comun/datos/commons.py:10
