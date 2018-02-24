@@ -214,11 +214,11 @@ class Nivel():
 
     def __init__(self, nombre):
         self.nombre = nombre
-        self.dibujoInicial = list()
-        self.nombreInicial = list()
-        self.preguntas = list()
+        self.dibujoInicial = []
+        self.nombreInicial = []
+        self.preguntas = []
         self.indicePreguntaActual = 0
-        self.elementosActivos = list()
+        self.elementosActivos = []
 
     def prepararPreguntas(self):
         """Este metodo sirve para preparar la lista de preguntas al azar."""
@@ -270,12 +270,12 @@ class Conozco():
         if f:
             lugares = []
             if hasattr(f, 'CAPITALS'):
-                lugares = lugares + f.CAPITALS
+                lugares.extend(f.CAPITALS)
             if hasattr(f, 'CITIES'):
-                lugares = lugares + f.CITIES
+                lugares.extend(f.CITIES)
             if hasattr(f, 'HILLS'):
-                lugares = lugares + f.HILLS
-            self.listaLugares = list()
+                lugares.extend(f.HILLS)
+            self.listaLugares = []
             for c in lugares:
                 nombreLugar = unicode(c[0], 'UTF-8')
                 posx = c[1]
@@ -301,7 +301,7 @@ class Conozco():
             if hasattr(f, 'STATES'):
                 self.deptos = self.cargarImagen("deptos.png")
                 self.deptosLineas = self.cargarImagen("deptosLineas.png")
-                self.listaDeptos = list()
+                self.listaDeptos = []
                 for d in f.STATES:
                     nombreDepto = unicode(d[0], 'UTF-8')
                     claveColor = d[1]
@@ -316,7 +316,7 @@ class Conozco():
                 self.cuchillas = self.cargarImagen("cuchillas.png")
                 self.cuchillasDetectar = self.cargarImagen(
                     "cuchillasDetectar.png")
-                self.listaCuchillas = list()
+                self.listaCuchillas = []
                 for c in f.CUCHILLAS:
                     nombreCuchilla = unicode(c[0], 'UTF-8')
                     claveColor = c[1]
@@ -330,7 +330,7 @@ class Conozco():
             if hasattr(f, 'RIVERS'):
                 self.rios = self.cargarImagen("rios.png")
                 self.riosDetectar = self.cargarImagen("riosDetectar.png")
-                self.listaRios = list()
+                self.listaRios = []
                 for r in f.RIVERS:
                     nombreRio = unicode(r[0], 'UTF-8')
                     claveColor = r[1]
@@ -344,7 +344,7 @@ class Conozco():
             if hasattr(f, 'ROUTES'):
                 self.rutas = self.cargarImagen("rutas.png")
                 self.rutasDetectar = self.cargarImagen("rutasDetectar.png")
-                self.listaRutas = list()
+                self.listaRutas = []
                 for r in f.ROUTES:
                     nombreRuta = unicode(r[0], 'UTF-8')
                     claveColor = r[1]
@@ -354,7 +354,7 @@ class Conozco():
                     nuevaRuta = Zona(self.rutasDetectar, nombreRuta,
                                      claveColor, 6, (posx, posy), rotacion)
                     self.listaRutas.append(nuevaRuta)
-            self.lista_estadisticas = list()
+            self.lista_estadisticas = []
             if hasattr(f, 'STATS'):
                 for e in f.STATS:
                     p1 = unicode(e[0], 'UTF-8')
@@ -363,8 +363,8 @@ class Conozco():
 
     def cargarListaDirectorios(self):
         """Carga la lista de directorios con los distintos mapas"""
-        self.listaDirectorios = list()
-        self.listaNombreDirectorios = list()
+        self.listaDirectorios = []
+        self.listaNombreDirectorios = []
         listaTemp = sorted(os.listdir(CAMINORECURSOS))
         for d in listaTemp:
             if not (d == 'comun'):
@@ -383,14 +383,14 @@ class Conozco():
 
     def loadCommons(self):
 
-        self.listaPrefijos = list()
-        self.listaSufijos = list()
-        self.listaCorrecto = list()
-        self.listaMal = list()
-        self.listaDespedidasB = list()
-        self.listaDespedidasM = list()
-        self.listaPresentacion = list()
-        self.listaCreditos = list()
+        self.listaPrefijos = []
+        self.listaSufijos = []
+        self.listaCorrecto = []
+        self.listaMal = []
+        self.listaDespedidasB = []
+        self.listaDespedidasM = []
+        self.listaPresentacion = []
+        self.listaCreditos = []
 
         r_path = os.path.join(
             CAMINORECURSOS,
@@ -450,7 +450,7 @@ class Conozco():
 
     def cargarNiveles(self):
         """Carga los niveles del archivo de configuracion"""
-        self.listaNiveles = list()
+        self.listaNiveles = []
 
         r_path = os.path.join(self.camino_datos, ARCHIVONIVELES + '.py')
         a_path = os.path.abspath(r_path)
@@ -532,7 +532,7 @@ class Conozco():
 
     def cargarExploraciones(self):
         """Carga los niveles de exploracion del archivo de configuracion"""
-        self.listaExploraciones = list()
+        self.listaExploraciones = []
 
         r_path = os.path.join(self.camino_datos, ARCHIVOEXPLORACIONES + '.py')
         a_path = os.path.abspath(r_path)
@@ -1082,13 +1082,7 @@ class Conozco():
                 self._time = l[5]
 
     def _validate_stats(self, l):
-        return (self._calc_sum(l) == l[6])
-
-    def _calc_sum(self, l):
-        s = 0
-        for i in range(6):
-            s = s + l[i]
-        return s % 7
+        return (sum(l)%7 == l[6])
 
     def save_stats(self):
         if self.parent is not None:
@@ -1098,27 +1092,23 @@ class Conozco():
                 folder = self.parent.get_activity_root()
                 path = os.path.join(folder, 'data', 'stats.dat')
                 # use aux list
-                l = []
-                for i in range(7):
-                    l.append(0)
-                l[0] = self._score
-                l[1] = self._average
-                l[2] = self._explore_times
-                l[3] = self._explore_places
-                l[4] = self._game_times
-                l[5] = self._time
-                l[6] = self._calc_sum(l)
-                # save
-                f = open(path, 'w')
-                for i in range(7):
-                    f.write(str(l[i]) + '\n')
-                f.close()
+                l = [
+                    self._score,
+                    self._average,
+                    self._explore_times,
+                    self._explore_places,
+                    self._game_times,
+                    self._time,
+                ]
+                l.append(sum(l)%7)
+                with open(path, 'w') as f:
+                    for x in l:
+                        f.write(str(x) + '\n')
             except Exception as err:
                 logging.debug('Error saving stats' + str(err))
 
     def loadAll(self):
         global scale, shift_x, shift_y, xo_resolution
-        pygame.init()
         pygame.display.init()
         self.pantalla = pygame.display.get_surface()
         if not(self.pantalla):
