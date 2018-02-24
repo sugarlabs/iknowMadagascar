@@ -1,4 +1,4 @@
 iknowMadagascar
 ===============
 
-A sugar game about he geography of Madagascar
+A sugar game about the geography of Madagascar

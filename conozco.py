@@ -24,20 +24,19 @@
 # Ceibal Jam http://ceibaljam.org
 
 import os
-import sys
 import random
 import pygame
 import time
 import imp
-import gettext
+import logging
 import ConfigParser
+import gettext
 from gettext import gettext as _
 
-gtk_present = True
-try:
-    import gtk
-except:
-    gtk_present = False
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk
+from sugar3.graphics.style import GRID_CELL_SIZE
 
 # constantes
 RADIO = 10
@@ -260,7 +259,7 @@ class Conozco():
         try:
             f = imp.load_source(self.directorio, a_path)
         except:
-            print _('Cannot open %s') % self.directorio
+            logging.debug(_('Cannot open %s') % self.directorio)
 
         if f:
             lugares = []
@@ -370,7 +369,7 @@ class Conozco():
                 try:
                     f = imp.load_source(d, a_path)
                 except:
-                    print _('Cannot open %s') % d
+                    logging.debug( _('Cannot open %s') % d)
 
                 if hasattr(f, 'NAME'):
                     name = unicode(f.NAME, 'UTF-8')
@@ -395,7 +394,7 @@ class Conozco():
         try:
             f = imp.load_source('commons', a_path)
         except:
-            print _('Cannot open %s') % 'commons'
+            logging.debug( _('Cannot open %s') % 'commons')
 
         if f:
             if hasattr(f, 'ACTIVITY_NAME'):
@@ -451,7 +450,7 @@ class Conozco():
         try:
             f = imp.load_source(ARCHIVONIVELES, a_path)
         except:
-            print _('Cannot open %s') % ARCHIVONIVELES
+            logging.debug( _('Cannot open %s') % ARCHIVONIVELES)
 
         if hasattr(f, 'LEVELS'):
             for ln in f.LEVELS:
@@ -532,7 +531,7 @@ class Conozco():
         try:
             f = imp.load_source(ARCHIVOEXPLORACIONES, a_path)
         except:
-            print _('Cannot open %s') % ARCHIVOEXPLORACIONES
+            logging.debug( _('Cannot open %s') % ARCHIVOEXPLORACIONES)
 
         if hasattr(f, 'EXPLORATIONS'):
             for e in f.EXPLORATIONS:
@@ -587,10 +586,9 @@ class Conozco():
                         int(800*scale+shift_y)),
                         COLOR_SKIP)
         pygame.display.flip()
-        while 1:
-            if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+        while True:
+            while Gtk.events_pending():
+                Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
@@ -664,10 +662,9 @@ class Conozco():
                         COLOR_SKIP)
 
         pygame.display.flip()
-        while 1:
-            if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+        while True:
+            while Gtk.events_pending():
+                Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
@@ -751,10 +748,9 @@ class Conozco():
                             (int(1005*scale+shift_x),int(825*scale+shift_y)),
                             COLOR_BUTTON_T)
         pygame.display.flip()
-        while 1:
-            if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+        while True:
+            while Gtk.events_pending():
+                Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -816,7 +812,7 @@ class Conozco():
                         COLOR_OPTION_T)
         nDirectorios = len(self.listaNombreDirectorios)
         paginaDirectorios = self.paginaDir
-        while 1:
+        while True:
             yLista = int(200*scale+shift_y)
             self.pantalla.fill(COLOR_FONDO,
                             (int(shift_x),yLista-int(24*scale),
@@ -913,9 +909,8 @@ class Conozco():
             pygame.display.flip()
             cambiarPagina = False
             while not cambiarPagina:
-                if gtk_present:
-                    while gtk.events_pending():
-                        gtk.main_iteration()
+                while Gtk.events_pending():
+                    Gtk.main_iteration()
 
                 for event in wait_events():
                     if event.type == pygame.KEYDOWN:
@@ -923,7 +918,7 @@ class Conozco():
                             if self.sound:
                                 self.click.play()
                             self.save_stats()
-                            sys.exit()
+                            pygame.quit()
                     elif event.type == pygame.MOUSEBUTTONDOWN:
                         if self.sound:
                             self.click.play()
@@ -983,7 +978,7 @@ class Conozco():
                                 elif pos[0] > 820*scale+shift_x and \
                                         pos[0] < 1190*scale+shift_x:
                                     self.save_stats()
-                                    sys.exit()  # exit
+                                    pygame.quit()
                     elif event.type == EVENTOREFRESCO:
                         pygame.display.flip()
 
@@ -1014,8 +1009,6 @@ class Conozco():
         path = os.path.abspath('locale')
         gettext.bindtextdomain(bundle_id, path)
         gettext.textdomain(bundle_id)
-        global _
-        _ = gettext.gettext
         # initial time
         self._init_time = time.time()
         # stats
@@ -1043,7 +1036,7 @@ class Conozco():
                             l[i] = int(val)
                     f.close()
             except Exception, err:
-                print 'Cannot load stats', err
+                logging.debug( 'Cannot load stats' + str(err))
                 return
             if self._validate_stats(l):
                 self._score = l[0]
@@ -1086,7 +1079,7 @@ class Conozco():
                     f.write(str(l[i]) + '\n')
                 f.close()
             except Exception, err:
-                print 'Error saving stats', err
+                logging.debug( 'Error saving stats' + str(err))
 
     def loadAll(self):
         global scale, shift_x, shift_y, xo_resolution
@@ -1465,10 +1458,9 @@ class Conozco():
                         COLOR_SKIP)
         pygame.display.flip()
         # lazo principal de espera por acciones del usuario
-        while 1:
-            if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+        while True:
+            while Gtk.events_pending():
+                Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -1645,10 +1637,9 @@ class Conozco():
         self.avanceNivel = 0
         pygame.time.set_timer(EVENTORESPUESTA,0)
         # leer eventos y ver si la respuesta es correcta
-        while 1:
-            if gtk_present:
-                while gtk.events_pending():
-                    gtk.main_iteration()
+        while True:
+            while Gtk.events_pending():
+                Gtk.main_iteration()
 
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
@@ -1854,25 +1845,32 @@ class Conozco():
                         pass
                     pygame.display.flip()
 
-    def principal(self):
+    def run(self):
         """Este es el loop principal del juego"""
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                return
+            elif event.type == pygame.VIDEORESIZE:
+                pygame.display.set_mode(
+                    (event.size[0], event.size[1] - GRID_CELL_SIZE),
+                    pygame.RESIZABLE)
+                break
+
         pygame.time.set_timer(EVENTOREFRESCO,TIEMPOREFRESCO)
 
         self.loadAll()
-
         self.loadCommons()
-
         self.load_stats()
 
         self.paginaDir = 0
-        while 1:
+        while True:
             self.pantallaDirectorios() # seleccion de mapa
             pygame.mouse.set_cursor((32,32), (1,1), *self.cursor_espera)
             self.directorio = self.listaDirectorios\
                 [self.indiceDirectorioActual]
             self.cargarDirectorio()
             pygame.mouse.set_cursor((32,32), (1,1), *self.cursor)
-            while 1:
+            while True:
                 # pantalla inicial de juego
                 self.elegir_directorio = False
                 self.pantallaInicial()
@@ -1914,7 +1912,7 @@ class Conozco():
 
 def main():
     juego = Conozco()
-    juego.principal()
+    juego.run()
 
 if __name__ == "__main__":
     main()
