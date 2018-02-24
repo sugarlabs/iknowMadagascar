@@ -16,6 +16,7 @@ import pygame
 import sugargame.canvas
 import conozco
 
+
 class Activity(activity.Activity):
 
     def __init__(self, handle):
