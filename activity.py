@@ -10,7 +10,9 @@ from gi.repository import Gtk
 
 from sugar3.activity import activity
 from sugar3.graphics.toolbarbox import ToolbarBox
-from sugar3.activity.widgets import ActivityToolbarButton, StopButton
+from sugar3.activity.widgets import ActivityToolbarButton
+from sugar3.activity.widgets import StopButton
+from sugar3.graphics.toolbutton import ToolButton
 
 import pygame
 import sugargame.canvas
@@ -22,6 +24,7 @@ class Activity(activity.Activity):
     def __init__(self, handle):
         activity.Activity.__init__(self, handle)
         self.max_participants = 1
+        self.sound_enable = True
 
         toolbox = ToolbarBox()
 
@@ -30,10 +33,21 @@ class Activity(activity.Activity):
         activity_button.show()
 
         separator = Gtk.SeparatorToolItem()
-        separator.props.draw = False
-        separator.set_expand(True)
+        separator.props.draw = True
         toolbox.toolbar.insert(separator, -1)
         separator.show()
+
+        sound_button = ToolButton('speaker-muted-100')
+        sound_button.set_tooltip(_('Sound'))
+        sound_button.connect('clicked', self.sound_control)
+        toolbox.toolbar.insert(sound_button, -1)
+        sound_button.show()
+
+        separator2 = Gtk.SeparatorToolItem()
+        separator2.props.draw = False
+        separator2.set_expand(True)
+        toolbox.toolbar.insert(separator2, -1)
+        separator2.show()
 
         stop_button = StopButton(self)
         stop_button.props.accelerator = _('<Ctrl>Q')
@@ -50,3 +64,13 @@ class Activity(activity.Activity):
                 pygame.display, pygame.font, pygame.mixer])
         self.set_canvas(self.game.canvas)
         self.game.canvas.grab_focus()
+
+    def sound_control(self, button):
+        self.sound_enable = not self.sound_enable
+        self.game.change_sound(self.sound_enable)
+        if not self.sound_enable:
+            button.set_icon_name('speaker-muted-000')
+            button.set_tooltip(_('No sound'))
+        else:
+            button.set_icon_name('speaker-muted-100')
+            button.set_tooltip(_('Sound'))
