@@ -602,8 +602,7 @@ class Conozco():
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
-                    if self.sound:
-                        self.click.play()
+                    self.sound_play()
                     self.pantalla.blit(self.pantallaTemp, (0, 0))
                     pygame.display.flip()
                     return
@@ -678,13 +677,19 @@ class Conozco():
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
-                    if self.sound:
-                        self.click.play()
+                    self.sound_play()
                     self.pantalla.blit(self.pantallaTemp, (0, 0))
                     pygame.display.flip()
                     return
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
+
+    def change_sound(self, sound):
+        self.sound = sound
+
+    def sound_play(self):
+        if self.sound:
+            self.click.play()
 
     def pantallaInicial(self):
         """Pantalla con el menu principal del juego"""
@@ -770,13 +775,10 @@ class Conozco():
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27:  # escape: volver
-                        if self.sound:
-                            self.click.play()
+                        self.sound_play()
                         self.elegir_directorio = True
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
-                    if self.sound:
-                        self.click.play()
                     pos = event.pos
                     # zona de opciones
                     if pos[1] < 800 * scale + shift_y:
@@ -789,6 +791,7 @@ class Conozco():
                                         int((pos[1] - int(275 * scale + shift_y)) //
                                             int(50 * scale))
                                     self.jugar = True
+                                    self.sound_play()
                                     return
                             else:  # segunda columna
                                 if pos[1] < 275 * scale + shift_y +\
@@ -798,18 +801,22 @@ class Conozco():
                                         int((pos[1] - int(275 * scale + shift_y)) //
                                             int(50 * scale))
                                     self.jugar = False
+                                    self.sound_play()
                                     return
                     # buttons zone
                     else:
                         if pos[1] < 850 * scale + shift_y:
                             if pos[0] > 20 * scale + shift_x and \
                                pos[0] < 390 * scale + shift_x:
+                                self.sound_play()
                                 self.pantallaAcercaDe()  # acerca
                             elif pos[0] > 420 * scale + shift_x and \
                                     pos[0] < 790 * scale + shift_x:
+                                self.sound_play()
                                 self.pantallaStats()  # stats
                             elif pos[0] > 820 * scale + shift_x and \
                                     pos[0] < 1190 * scale + shift_x:
+                                self.sound_play()
                                 self.elegir_directorio = True
                                 return
                 elif event.type == EVENTOREFRESCO:
@@ -916,30 +923,22 @@ class Conozco():
                 nDirectoriosCol2 = 0
             # about button
             self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(20 * scale + shift_x),
+                               (int(220 * scale + shift_x),
                                 int(801 * scale + shift_y),
                                    int(370 * scale),
                                    int(48 * scale)))
             self.mostrarTexto(_("About this game"), self.fuente40, (int(
-                205 * scale + shift_x), int(825 * scale + shift_y)), (100, 200, 100))
+                405 * scale + shift_x), int(825 * scale + shift_y)), (100, 200, 100))
             # stats button
             self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(420 * scale + shift_x),
+                               (int(620 * scale + shift_x),
                                 int(801 * scale + shift_y),
                                    int(370 * scale),
                                    int(48 * scale)))
             self.mostrarTexto(unicode(_("Stats"), 'UTF-8'),
                               self.fuente40,
-                              (int(605 * scale + shift_x), int(825 * scale + shift_y)),
+                              (int(805 * scale + shift_x), int(825 * scale + shift_y)),
                               (100, 200, 100))
-            # exit button
-            self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(820 * scale + shift_x),
-                                int(801 * scale + shift_y),
-                                   int(370 * scale),
-                                   int(48 * scale)))
-            self.mostrarTexto(_("Exit"), self.fuente40, (int(
-                1005 * scale + shift_x), int(825 * scale + shift_y)), (100, 200, 100))
             pygame.display.flip()
             cambiarPagina = False
             while not cambiarPagina:
@@ -947,15 +946,7 @@ class Conozco():
                     Gtk.main_iteration()
 
                 for event in wait_events():
-                    if event.type == pygame.KEYDOWN:
-                        if event.key == 27:  # escape: salir
-                            if self.sound:
-                                self.click.play()
-                            self.save_stats()
-                            pygame.quit()
-                    elif event.type == pygame.MOUSEBUTTONDOWN:
-                        if self.sound:
-                            self.click.play()
+                    if event.type == pygame.MOUSEBUTTONDOWN:
                         pos = event.pos
                         # zona de opciones
                         if pos[1] < 800 * scale + shift_y:
@@ -971,11 +962,13 @@ class Conozco():
                                         if self.indiceDirectorioActual == \
                                                 paginaDirectorios * 20 - 1 and \
                                                 paginaAnteriorActiva:  # pag. ant.
+                                            self.sound_play()
                                             paginaDirectorios = paginaDirectorios - 1
                                             paginaSiguienteActiva = True
                                             cambiarPagina = True
                                         elif self.indiceDirectorioActual >\
                                                 paginaDirectorios * 20 - 1:
+                                            self.sound_play()
                                             self.paginaDir = paginaDirectorios
                                             return
                                 else:
@@ -995,10 +988,12 @@ class Conozco():
                                                 paginaSiguienteActiva:  # pag. sig.
                                             paginaDirectorios = \
                                                 paginaDirectorios + 1
+                                            self.sound_play()
                                             paginaAnteriorActiva = True
                                             cambiarPagina = True
                                         elif self.indiceDirectorioActual <\
                                                 paginaDirectorios * 20 + 20:
+                                            self.sound_play()
                                             self.paginaDir = paginaDirectorios
                                             return
                         # buttons zone
@@ -1010,10 +1005,6 @@ class Conozco():
                                 elif pos[0] > 420 * scale + shift_x and \
                                         pos[0] < 790 * scale + shift_x:
                                     self.pantallaStats()  # stats
-                                elif pos[0] > 820 * scale + shift_x and \
-                                        pos[0] < 1190 * scale + shift_x:
-                                    self.save_stats()
-                                    pygame.quit()
                     elif event.type == EVENTOREFRESCO:
                         pygame.display.flip()
 
@@ -1491,12 +1482,9 @@ class Conozco():
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27:  # escape: salir
-                        if self.sound:
-                            self.click.play()
+                        self.sound_play()
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
-                    if self.sound:
-                        self.click.play()
                     if event.pos[0] < XMAPAMAX * \
                             scale + shift_x:  # zona de mapa
                         for i in self.nivelActual.elementosActivos:
@@ -1509,6 +1497,7 @@ class Conozco():
                                                         COLORNOMBRECAPITAL,
                                                         True)
                                         self._explore_places += 1
+                                        self.sound_play()
                                         break
                             elif i.startswith("ciudades"):
                                 for l in self.listaLugares:
@@ -1518,6 +1507,7 @@ class Conozco():
                                                         COLORNOMBRECAPITAL,
                                                         True)
                                         self._explore_places += 1
+                                        self.sound_play()
                                         break
                             elif i.startswith("rios"):
                                 for d in self.listaRios:
@@ -1527,6 +1517,7 @@ class Conozco():
                                                         COLORNOMBRERIO,
                                                         True)
                                         self._explore_places += 1
+                                        self.sound_play()
                                         break
                             elif i.startswith("rutas"):
                                 for d in self.listaRutas:
@@ -1536,6 +1527,7 @@ class Conozco():
                                                         COLORNOMBRERUTA,
                                                         True)
                                         self._explore_places += 1
+                                        self.sound_play()
                                         break
                             elif i.startswith("cuchillas"):
                                 for d in self.listaCuchillas:
@@ -1545,6 +1537,7 @@ class Conozco():
                                                         COLORNOMBREELEVACION,
                                                         True)
                                         self._explore_places += 1
+                                        self.sound_play()
                                         break
                             elif i.startswith("cerros"):
                                 for l in self.listaLugares:
@@ -1554,6 +1547,7 @@ class Conozco():
                                                         COLORNOMBREELEVACION,
                                                         True)
                                         self._explore_places += 1
+                                        self.sound_play()
                                         break
                             elif i.startswith("deptos"):
                                 for d in self.listaDeptos:
@@ -1563,11 +1557,13 @@ class Conozco():
                                                         COLORNOMBREDEPTO,
                                                         True)
                                         self._explore_places += 1
+                                        self.sound_play()
                                         break
                     elif event.pos[0] > 975 * scale + shift_x and \
                             event.pos[0] < 1175 * scale + shift_x:
                         if event.pos[1] > 25 * scale + shift_y and \
                                 event.pos[1] < 75 * scale + shift_y:  # terminar
+                            self.sound_play()
                             return
                         elif event.pos[1] > 90 * scale + shift_y and \
                                 event.pos[1] < 140 * scale + shift_y:  # mostrar todo
@@ -1576,33 +1572,40 @@ class Conozco():
                                     for d in self.listaDeptos:
                                         d.mostrarNombre(
                                             self.pantalla, self.fuente32, COLORNOMBREDEPTO, False)
+                                        self.sound_play()
                                 elif i.startswith("rios"):
                                     for d in self.listaRios:
                                         d.mostrarNombre(
                                             self.pantalla, self.fuente24, COLORNOMBRERIO, False)
+                                        self.sound_play()
                                 elif i.startswith("rutas"):
                                     for d in self.listaRutas:
                                         d.mostrarNombre(
                                             self.pantalla, self.fuente24, COLORNOMBRERUTA, False)
+                                        self.sound_play()
                                 elif i.startswith("cuchillas"):
                                     for d in self.listaCuchillas:
                                         d.mostrarNombre(
                                             self.pantalla, self.fuente24, COLORNOMBREELEVACION, False)
+                                        self.sound_play()
                                 elif i.startswith("capitales"):
                                     for l in self.listaLugares:
                                         if ((l.tipo == 0) or (l.tipo == 1)):
                                             l.mostrarNombre(
                                                 self.pantalla, self.fuente24, COLORNOMBRECAPITAL, False)
+                                            self.sound_play()
                                 elif i.startswith("ciudades"):
                                     for l in self.listaLugares:
                                         if l.tipo == 2:
                                             l.mostrarNombre(
                                                 self.pantalla, self.fuente24, COLORNOMBRECAPITAL, False)
+                                            self.sound_play()
                                 elif i.startswith("cerros"):
                                     for l in self.listaLugares:
                                         if l.tipo == 5:
                                             l.mostrarNombre(
                                                 self.pantalla, self.fuente24, COLORNOMBREELEVACION, False)
+                                            self.sound_play()
                             pygame.display.flip()
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
@@ -1673,12 +1676,12 @@ class Conozco():
             for event in wait_events():
                 if event.type == pygame.KEYDOWN:
                     if event.key == 27:  # escape: salir
-                        self.click.play()
+                        self.sound_play()
                         pygame.time.set_timer(EVENTORESPUESTA, 0)
                         pygame.time.set_timer(EVENTODESPEGUE, 0)
                         return
                 elif event.type == pygame.MOUSEBUTTONDOWN:
-                    self.click.play()
+                    self.sound_play()
                     if event.pos[0] < XMAPAMAX * scale + shift_x:  # zona mapa
                         if self.avanceNivel < TOTALAVANCE:
                             if not(self.respondiendo):
