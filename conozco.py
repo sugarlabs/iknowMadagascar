@@ -699,12 +699,6 @@ class Conozco():
                           (int(600 * scale + shift_x),
                            int(80 * scale + shift_y)),
                           COLOR_ACT_NAME)
-        self.mostrarTexto(_("You have chosen the map ") +
-                          self.listaNombreDirectorios
-                          [self.indiceDirectorioActual],
-                          self.fuente40,
-                          (int(600 * scale + shift_x), int(140 * scale + shift_y)),
-                          COLOR_OPTION_T)
         self.mostrarTexto(_("Play"),
                           self.fuente60,
                           (int(300 * scale + shift_x),
@@ -738,33 +732,22 @@ class Conozco():
             yLista += int(50 * scale)
             # about button
             self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(20 * scale + shift_x),
+                               (int(220 * scale + shift_x),
                                 int(801 * scale + shift_y),
                                    int(370 * scale),
                                    int(48 * scale)))
             self.mostrarTexto(_("About this game"), self.fuente40, (int(
-                205 * scale + shift_x), int(825 * scale + shift_y)), COLOR_BUTTON_T)
+                405 * scale + shift_x), int(825 * scale + shift_y)), COLOR_BUTTON_T)
             # stats button
             self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(420 * scale + shift_x),
+                               (int(620 * scale + shift_x),
                                 int(801 * scale + shift_y),
                                    int(370 * scale),
                                    int(48 * scale)))
             self.mostrarTexto(unicode(_("Stats"),
                                       'UTF-8'),
                               self.fuente40,
-                              (int(605 * scale + shift_x),
-                               int(825 * scale + shift_y)),
-                              COLOR_BUTTON_T)
-            # return button
-            self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(820 * scale + shift_x),
-                                int(801 * scale + shift_y),
-                                   int(370 * scale),
-                                   int(48 * scale)))
-            self.mostrarTexto(_("Return"),
-                              self.fuente40,
-                              (int(1005 * scale + shift_x),
+                              (int(805 * scale + shift_x),
                                int(825 * scale + shift_y)),
                               COLOR_BUTTON_T)
         pygame.display.flip()
@@ -821,192 +804,6 @@ class Conozco():
                                 return
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
-
-    def pantallaDirectorios(self):
-        """Pantalla con el menu de directorios"""
-        self.pantalla.fill(COLOR_FONDO)
-        self.mostrarTexto(self.activity_name, self.fuente60, (int(
-            600 * scale + shift_x), int(80 * scale + shift_y)), COLOR_ACT_NAME)
-        self.mostrarTexto(_("Choose the map to use"), self.fuente40, (int(
-            600 * scale + shift_x), int(140 * scale + shift_y)), COLOR_OPTION_T)
-        nDirectorios = len(self.listaNombreDirectorios)
-        paginaDirectorios = self.paginaDir
-        while True:
-            yLista = int(200 * scale + shift_y)
-            self.pantalla.fill(COLOR_FONDO,
-                               (int(shift_x), yLista - int(24 * scale),
-                                int(1200 * scale), int(600 * scale)))
-            if paginaDirectorios == 0:
-                paginaAnteriorActiva = False
-            else:
-                paginaAnteriorActiva = True
-            paginaSiguienteActiva = False
-            if paginaAnteriorActiva:
-                self.pantalla.fill(COLOR_OPTION_B,
-                                   (int(10 * scale + shift_x),
-                                    yLista - int(24 * scale),
-                                       int(590 * scale),
-                                       int(48 * scale)))
-                self.mostrarTexto(
-                    unicode(
-                        "<<< " +
-                        _("Previous page"),
-                        "UTF-8"),
-                    self.fuente40,
-                    (int(
-                        300 *
-                        scale +
-                        shift_x),
-                        yLista),
-                    COLOR_NEXT)
-            yLista += int(50 * scale)
-            indiceDir = paginaDirectorios * 20
-            terminar = False
-            while not terminar:
-                self.pantalla.fill(COLOR_OPTION_B,
-                                   (int(10 * scale + shift_x),
-                                    yLista - int(24 * scale),
-                                       int(590 * scale),
-                                       int(48 * scale)))
-                self.mostrarTexto(self.listaNombreDirectorios[indiceDir],
-                                  self.fuente40,
-                                  (int(300 * scale + shift_x), yLista),
-                                  COLOR_OPTION_T)
-                yLista += int(50 * scale)
-                indiceDir = indiceDir + 1
-                if indiceDir == nDirectorios or \
-                        indiceDir == paginaDirectorios * 20 + 10:
-                    terminar = True
-            if indiceDir == paginaDirectorios * 20 + 10 and \
-                    not indiceDir == nDirectorios:
-                nDirectoriosCol1 = 10
-                yLista = int(250 * scale + shift_y)
-                terminar = False
-                while not terminar:
-                    self.pantalla.fill(COLOR_OPTION_B,
-                                       (int(610 * scale + shift_x),
-                                        yLista - int(24 * scale),
-                                        int(590 * scale), int(48 * scale)))
-                    self.mostrarTexto(self.listaNombreDirectorios[indiceDir],
-                                      self.fuente40,
-                                      (int(900 * scale + shift_x), yLista),
-                                      COLOR_OPTION_T)
-                    yLista += int(50 * scale)
-                    indiceDir = indiceDir + 1
-                    if indiceDir == nDirectorios or \
-                            indiceDir == paginaDirectorios * 20 + 20:
-                        terminar = True
-                if indiceDir == paginaDirectorios * 20 + 20:
-                    if indiceDir < nDirectorios:
-                        self.pantalla.fill(COLOR_OPTION_B,
-                                           (int(610 * scale + shift_x),
-                                            yLista - int(24 * scale),
-                                            int(590 * scale), int(48 * scale)))
-                        self.mostrarTexto(
-                            unicode(
-                                _("Next page") +
-                                " >>>",
-                                "UTF-8"),
-                            self.fuente40,
-                            (int(
-                                900 *
-                                scale +
-                                shift_x),
-                                yLista),
-                            COLOR_NEXT)
-                        paginaSiguienteActiva = True
-                    nDirectoriosCol2 = 10
-                else:
-                    nDirectoriosCol2 = indiceDir - paginaDirectorios * 20 - 10
-            else:
-                nDirectoriosCol1 = indiceDir - paginaDirectorios * 20
-                nDirectoriosCol2 = 0
-            # about button
-            self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(220 * scale + shift_x),
-                                int(801 * scale + shift_y),
-                                   int(370 * scale),
-                                   int(48 * scale)))
-            self.mostrarTexto(_("About this game"), self.fuente40, (int(
-                405 * scale + shift_x), int(825 * scale + shift_y)), (100, 200, 100))
-            # stats button
-            self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(620 * scale + shift_x),
-                                int(801 * scale + shift_y),
-                                   int(370 * scale),
-                                   int(48 * scale)))
-            self.mostrarTexto(unicode(_("Stats"), 'UTF-8'),
-                              self.fuente40,
-                              (int(805 * scale + shift_x), int(825 * scale + shift_y)),
-                              (100, 200, 100))
-            pygame.display.flip()
-            cambiarPagina = False
-            while not cambiarPagina:
-                while Gtk.events_pending():
-                    Gtk.main_iteration()
-
-                for event in wait_events():
-                    if event.type == pygame.MOUSEBUTTONDOWN:
-                        pos = event.pos
-                        # zona de opciones
-                        if pos[1] < 800 * scale + shift_y:
-                            if pos[1] > 175 * scale + shift_y:
-                                if pos[0] < 600 * scale + \
-                                        shift_x:  # primera columna
-                                    if pos[1] < 175 * scale + shift_y + \
-                                            (nDirectoriosCol1 + 1) * 50 * scale:  # mapa
-                                        self.indiceDirectorioActual = \
-                                            int((pos[1] - int(175 * scale + shift_y)) //
-                                                int(50 * scale)) - 1 + \
-                                            paginaDirectorios * 20
-                                        if self.indiceDirectorioActual == \
-                                                paginaDirectorios * 20 - 1 and \
-                                                paginaAnteriorActiva:  # pag. ant.
-                                            self.sound_play()
-                                            paginaDirectorios = paginaDirectorios - 1
-                                            paginaSiguienteActiva = True
-                                            cambiarPagina = True
-                                        elif self.indiceDirectorioActual >\
-                                                paginaDirectorios * 20 - 1:
-                                            self.sound_play()
-                                            self.paginaDir = paginaDirectorios
-                                            return
-                                else:
-                                    if pos[1] < 225 * scale + shift_y + \
-                                            nDirectoriosCol2 * 50 * scale or \
-                                            (paginaSiguienteActiva and
-                                                pos[1] < 775 * scale + shift_y):  # mapa
-                                        self.indiceDirectorioActual = \
-                                            int((pos[1] - int(225 * scale + shift_y)) //
-                                                int(50 * scale)) + \
-                                            paginaDirectorios * 20 + 10
-                                        if self.indiceDirectorioActual == \
-                                                paginaDirectorios * 20 + 9:
-                                            pass  # ignorar; espacio vacio
-                                        elif self.indiceDirectorioActual == \
-                                                paginaDirectorios * 20 + 20 and \
-                                                paginaSiguienteActiva:  # pag. sig.
-                                            paginaDirectorios = \
-                                                paginaDirectorios + 1
-                                            self.sound_play()
-                                            paginaAnteriorActiva = True
-                                            cambiarPagina = True
-                                        elif self.indiceDirectorioActual <\
-                                                paginaDirectorios * 20 + 20:
-                                            self.sound_play()
-                                            self.paginaDir = paginaDirectorios
-                                            return
-                        # buttons zone
-                        else:
-                            if pos[1] < 850 * scale + shift_y:
-                                if pos[0] > 20 * scale + shift_x and \
-                                   pos[0] < 390 * scale + shift_x:
-                                    self.pantallaAcercaDe()  # acerca
-                                elif pos[0] > 420 * scale + shift_x and \
-                                        pos[0] < 790 * scale + shift_x:
-                                    self.pantallaStats()  # stats
-                    elif event.type == EVENTOREFRESCO:
-                        pygame.display.flip()
 
     def cargarImagen(self, nombre):
         """Carga una imagen y la escala de acuerdo a la resolucion"""
@@ -1920,7 +1717,7 @@ class Conozco():
 
         self.paginaDir = 0
         while True:
-            self.pantallaDirectorios()  # seleccion de mapa
+            self.indiceDirectorioActual = 0
             pygame.mouse.set_cursor((32, 32), (1, 1), *self.cursor_espera)
             self.directorio = self.listaDirectorios[self.indiceDirectorioActual]
             self.cargarDirectorio()
