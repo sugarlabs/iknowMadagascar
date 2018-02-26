@@ -1294,7 +1294,6 @@ class Conozco():
                                                         COLORNOMBRECAPITAL,
                                                         True)
                                         self._explore_places += 1
-                                        self.sound_play()
                                         break
                             elif i.startswith("ciudades"):
                                 for l in self.listaLugares:
@@ -1304,7 +1303,6 @@ class Conozco():
                                                         COLORNOMBRECAPITAL,
                                                         True)
                                         self._explore_places += 1
-                                        self.sound_play()
                                         break
                             elif i.startswith("rios"):
                                 for d in self.listaRios:
@@ -1314,7 +1312,6 @@ class Conozco():
                                                         COLORNOMBRERIO,
                                                         True)
                                         self._explore_places += 1
-                                        self.sound_play()
                                         break
                             elif i.startswith("rutas"):
                                 for d in self.listaRutas:
@@ -1324,7 +1321,6 @@ class Conozco():
                                                         COLORNOMBRERUTA,
                                                         True)
                                         self._explore_places += 1
-                                        self.sound_play()
                                         break
                             elif i.startswith("cuchillas"):
                                 for d in self.listaCuchillas:
@@ -1334,7 +1330,6 @@ class Conozco():
                                                         COLORNOMBREELEVACION,
                                                         True)
                                         self._explore_places += 1
-                                        self.sound_play()
                                         break
                             elif i.startswith("cerros"):
                                 for l in self.listaLugares:
@@ -1344,7 +1339,6 @@ class Conozco():
                                                         COLORNOMBREELEVACION,
                                                         True)
                                         self._explore_places += 1
-                                        self.sound_play()
                                         break
                             elif i.startswith("deptos"):
                                 for d in self.listaDeptos:
@@ -1354,8 +1348,10 @@ class Conozco():
                                                         COLORNOMBREDEPTO,
                                                         True)
                                         self._explore_places += 1
-                                        self.sound_play()
                                         break
+                            else:
+                                continue
+                            self.sound_play()
                     elif event.pos[0] > 975 * scale + shift_x and \
                             event.pos[0] < 1175 * scale + shift_x:
                         if event.pos[1] > 25 * scale + shift_y and \
