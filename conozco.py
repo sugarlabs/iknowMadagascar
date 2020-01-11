@@ -29,7 +29,7 @@ import pygame
 import time
 import imp
 import logging
-import ConfigParser
+import configparser
 import gettext
 from gettext import gettext as _
 
@@ -824,7 +824,7 @@ class Conozco():
 
     def __init__(self, parent=None):
         self.parent = parent
-        file_activity_info = ConfigParser.ConfigParser()
+        file_activity_info = configparser.ConfigParser()
         activity_info_path = os.path.abspath('activity/activity.info')
         file_activity_info.read(activity_info_path)
         bundle_id = file_activity_info.get('Activity', 'bundle_id')
