@@ -605,7 +605,7 @@ class Conozco():
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
 
-def pantallaStats(self):
+    def pantallaStats(self):
         """Pantalla con los datos del juego, creditos, etc"""
         self.pantallaTemp = pygame.Surface(
             (self.anchoPantalla,self.altoPantalla))
