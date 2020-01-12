@@ -214,11 +214,11 @@ class Nivel():
 
     def __init__(self, nombre):
         self.nombre = nombre
-        self.dibujoInicial = []
-        self.nombreInicial = []
-        self.preguntas = []
+        self.dibujoInicial = list()
+        self.nombreInicial = list()
+        self.preguntas = list()
         self.indicePreguntaActual = 0
-        self.elementosActivos = []
+        self.elementosActivos = list()
 
     def prepararPreguntas(self):
         """Este metodo sirve para preparar la lista de preguntas al azar."""
