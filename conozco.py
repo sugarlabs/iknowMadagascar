@@ -383,14 +383,14 @@ class Conozco():
 
     def loadCommons(self):
 
-        self.listaPrefijos = []
-        self.listaSufijos = []
-        self.listaCorrecto = []
-        self.listaMal = []
-        self.listaDespedidasB = []
-        self.listaDespedidasM = []
-        self.listaPresentacion = []
-        self.listaCreditos = []
+        self.listaPrefijos = list()
+        self.listaSufijos = list()
+        self.listaCorrecto = list()
+        self.listaMal = list()
+        self.listaDespedidasB = list()
+        self.listaDespedidasM = list()
+        self.listaPresentacion = list()
+        self.listaCreditos = list()
 
         r_path = os.path.join(
             CAMINORECURSOS,
