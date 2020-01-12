@@ -446,7 +446,7 @@ class Conozco():
 
     def cargarNiveles(self):
         """Carga los niveles del archivo de configuracion"""
-        self.listaNiveles = []
+        self.listaNiveles = list()
 
         r_path = os.path.join(self.camino_datos, ARCHIVONIVELES + '.py')
         a_path = os.path.abspath(r_path)
