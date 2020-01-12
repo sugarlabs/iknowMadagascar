@@ -605,65 +605,65 @@ class Conozco():
                 elif event.type == EVENTOREFRESCO:
                     pygame.display.flip()
 
-    def pantallaStats(self):
+def pantallaStats(self):
         """Pantalla con los datos del juego, creditos, etc"""
         self.pantallaTemp = pygame.Surface(
-            (self.anchoPantalla, self.altoPantalla))
-        self.pantallaTemp.blit(self.pantalla, (0, 0))
+            (self.anchoPantalla,self.altoPantalla))
+        self.pantallaTemp.blit(self.pantalla,(0,0))
         self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.jp1,
-                           (int(925 * scale + shift_x),
-                            int(468 * scale + shift_y)))
+                        (int(925*scale+shift_x),
+                            int(468*scale+shift_y)))
         msg = _("Stats of %s") % self.activity_name
         self.mostrarTexto(msg,
-                          self.fuente40,
-                          (int(600 * scale + shift_x),
-                           int(100 * scale + shift_y)),
-                          COLOR_ACT_NAME)
+                        self.fuente40,
+                        (int(600*scale+shift_x),
+                        int(100*scale+shift_y)),
+                        COLOR_ACT_NAME)
         msg = _('Total score: %s') % self._score
         self.mostrarTexto(unicode(msg, 'UTF-8'),
-                          self.fuente32,
-                          (int(400 * scale + shift_x),
-                           int(300 * scale + shift_y)),
-                          COLOR_STAT_N)
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(300*scale+shift_y)),
+                        COLOR_STAT_N)
         msg = _('Game average score: %s') % self._average
         self.mostrarTexto(unicode(msg, 'UTF-8'),
-                          self.fuente32,
-                          (int(400 * scale + shift_x),
-                           int(350 * scale + shift_y)),
-                          COLOR_STAT_N)
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(350*scale+shift_y)),
+                        COLOR_STAT_N)
         msg = _('Times using Explore Mode: %s') % self._explore_times
         self.mostrarTexto(unicode(msg, 'UTF-8'),
-                          self.fuente32,
-                          (int(400 * scale + shift_x),
-                           int(400 * scale + shift_y)),
-                          COLOR_STAT_N)
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(400*scale+shift_y)),
+                        COLOR_STAT_N)
         msg = _('Places Explored: %s') % self._explore_places
         self.mostrarTexto(unicode(msg, 'UTF-8'),
-                          self.fuente32,
-                          (int(400 * scale + shift_x),
-                           int(450 * scale + shift_y)),
-                          COLOR_STAT_N)
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(450*scale+shift_y)),
+                        COLOR_STAT_N)
         msg = _('Times using Game Mode: %s') % self._game_times
         self.mostrarTexto(unicode(msg, 'UTF-8'),
-                          self.fuente32,
-                          (int(400 * scale + shift_x),
-                           int(500 * scale + shift_y)),
-                          COLOR_STAT_N)
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(500*scale+shift_y)),
+                        COLOR_STAT_N)
         t = int(time.time() - self._init_time) / 60
         t = t + self._time
         msg = _('Total time: %s minutes') % t
         self.mostrarTexto(unicode(msg, 'UTF-8'),
-                          self.fuente32,
-                          (int(400 * scale + shift_x),
-                           int(550 * scale + shift_y)),
-                          COLOR_STAT_N)
+                        self.fuente32,
+                        (int(400*scale+shift_x),
+                        int(550*scale+shift_y)),
+                        COLOR_STAT_N)
 
         self.mostrarTexto(_("Press any key to return"),
-                          self.fuente32,
-                          (int(600 * scale + shift_x),
-                           int(800 * scale + shift_y)),
-                          COLOR_SKIP)
+                        self.fuente32,
+                        (int(600*scale+shift_x),
+                        int(800*scale+shift_y)),
+                        COLOR_SKIP)
 
         pygame.display.flip()
         while True:
@@ -673,8 +673,8 @@ class Conozco():
             for event in wait_events():
                 if event.type == pygame.KEYDOWN or \
                         event.type == pygame.MOUSEBUTTONDOWN:
-                    self.sound_play()
-                    self.pantalla.blit(self.pantallaTemp, (0, 0))
+                    self.click.play()
+                    self.pantalla.blit(self.pantallaTemp,(0,0))
                     pygame.display.flip()
                     return
                 elif event.type == EVENTOREFRESCO:
@@ -691,61 +691,72 @@ class Conozco():
         """Pantalla con el menu principal del juego"""
         self.pantalla.fill(COLOR_FONDO)
         self.mostrarTexto(self.activity_name,
-                          self.fuente60,
-                          (int(600 * scale + shift_x),
-                           int(80 * scale + shift_y)),
-                          COLOR_ACT_NAME)
+                        self.fuente60,
+                        (int(600*scale+shift_x),
+                        int(80*scale+shift_y)),
+                        COLOR_ACT_NAME)
+        self.mostrarTexto(_("You have chosen the map ")+\
+                            self.listaNombreDirectorios\
+                            [self.indiceDirectorioActual],
+                        self.fuente40,
+                        (int(600*scale+shift_x), int(140*scale+shift_y)),
+                        COLOR_OPTION_T)
         self.mostrarTexto(_("Play"),
-                          self.fuente60,
-                          (int(300 * scale + shift_x),
-                           int(220 * scale + shift_y)),
-                          COLOR_OPTION_T)
-        yLista = int(300 * scale + shift_y)
+                        self.fuente60,
+                        (int(300*scale+shift_x), int(220*scale+shift_y)),
+                        COLOR_OPTION_T)
+        yLista = int(300*scale+shift_y)
         for n in self.listaNiveles:
             self.pantalla.fill(COLOR_OPTION_B,
-                               (int(10 * scale + shift_x),
-                                yLista - int(24 * scale),
-                                int(590 * scale),
-                                int(48 * scale)))
+                            (int(10*scale+shift_x),
+                                yLista-int(24*scale),
+                                int(590*scale),
+                                int(48*scale)))
             self.mostrarTexto(n.nombre,
-                              self.fuente40,
-                              (int(300 * scale + shift_x), yLista),
-                              COLOR_OPTION_T)
-            yLista += int(50 * scale)
-        self.mostrarTexto(_("Explore"), self.fuente60, (int(
-            900 * scale + shift_x), int(220 * scale + shift_y)), COLOR_NEXT)
-        yLista = int(300 * scale + shift_y)
+                            self.fuente40,
+                            (int(300*scale+shift_x), yLista),
+                            COLOR_OPTION_T)
+            yLista += int(50*scale)
+        self.mostrarTexto(_("Explore"),
+                        self.fuente60,
+                        (int(900*scale+shift_x), int(220*scale+shift_y)),
+                        COLOR_NEXT)
+        yLista = int(300*scale+shift_y)
         for n in self.listaExploraciones:
             self.pantalla.fill(COLOR_OPTION_B,
-                               (int(610 * scale + shift_x),
-                                yLista - int(24 * scale),
-                                int(590 * scale),
-                                int(48 * scale)))
+                            (int(610*scale+shift_x),
+                                yLista-int(24*scale),
+                                int(590*scale),
+                                int(48*scale)))
             self.mostrarTexto(n.nombre,
-                              self.fuente40,
-                              (int(900 * scale + shift_x), yLista),
-                              COLOR_NEXT)
-            yLista += int(50 * scale)
+                            self.fuente40,
+                            (int(900*scale+shift_x),yLista),
+                            COLOR_NEXT)
+            yLista += int(50*scale)
             # about button
             self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(220 * scale + shift_x),
-                                int(801 * scale + shift_y),
-                                   int(370 * scale),
-                                   int(48 * scale)))
-            self.mostrarTexto(_("About this game"), self.fuente40, (int(
-                405 * scale + shift_x), int(825 * scale + shift_y)), COLOR_BUTTON_T)
+                            (int(20*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
+            self.mostrarTexto(_("About this game"),
+                            self.fuente40,
+                            (int(205*scale+shift_x),int(825*scale+shift_y)),
+                            COLOR_BUTTON_T)
             # stats button
             self.pantalla.fill(COLOR_BUTTON_B,
-                               (int(620 * scale + shift_x),
-                                int(801 * scale + shift_y),
-                                   int(370 * scale),
-                                   int(48 * scale)))
-            self.mostrarTexto(unicode(_("Stats"),
-                                      'UTF-8'),
-                              self.fuente40,
-                              (int(805 * scale + shift_x),
-                               int(825 * scale + shift_y)),
-                              COLOR_BUTTON_T)
+                            (int(420*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
+            self.mostrarTexto(unicode(_("Stats"), 'UTF-8'),
+                            self.fuente40,
+                            (int(605*scale+shift_x),int(825*scale+shift_y)),
+                            COLOR_BUTTON_T)
+            # return button
+            self.pantalla.fill(COLOR_BUTTON_B,
+                            (int(820*scale+shift_x),int(801*scale+shift_y),
+                                int(370*scale),int(48*scale)))
+            self.mostrarTexto(_("Return"),
+                            self.fuente40,
+                            (int(1005*scale+shift_x),int(825*scale+shift_y)),
+                            COLOR_BUTTON_T)
         pygame.display.flip()
         while True:
             while Gtk.events_pending():
