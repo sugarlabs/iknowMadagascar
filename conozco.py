@@ -392,11 +392,7 @@ class Conozco():
         self.listaPresentacion = list()
         self.listaCreditos = list()
 
-        r_path = os.path.join(
-            CAMINORECURSOS,
-            CAMINOCOMUN,
-            'datos',
-            'commons.py')
+        r_path = os.path.join(CAMINORECURSOS, CAMINOCOMUN, 'datos', 'commons.py')
         a_path = os.path.abspath(r_path)
         f = None
         try:
