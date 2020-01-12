@@ -562,34 +562,34 @@ class Conozco():
     def pantallaAcercaDe(self):
         """Pantalla con los datos del juego, creditos, etc"""
         self.pantallaTemp = pygame.Surface(
-            (self.anchoPantalla, self.altoPantalla))
-        self.pantallaTemp.blit(self.pantalla, (0, 0))
+            (self.anchoPantalla,self.altoPantalla))
+        self.pantallaTemp.blit(self.pantalla,(0,0))
         self.pantalla.fill(COLOR_FONDO)
         self.pantalla.blit(self.terron,
-                           (int(20 * scale + shift_x),
-                            int(20 * scale + shift_y)))
+                        (int(20*scale+shift_x),
+                            int(20*scale+shift_y)))
         self.pantalla.blit(self.jp1,
-                           (int(925 * scale + shift_x),
-                            int(468 * scale + shift_y)))
+                        (int(925*scale+shift_x),
+                            int(468*scale+shift_y)))
         self.mostrarTexto(_("About %s") % self.activity_name,
-                          self.fuente40,
-                          (int(600 * scale + shift_x),
-                           int(100 * scale + shift_y)),
-                          COLOR_ACT_NAME)
+                        self.fuente40,
+                        (int(600*scale+shift_x),
+                        int(100*scale+shift_y)),
+                        COLOR_ACT_NAME)
 
-        yLinea = int(200 * scale + shift_y)
+        yLinea = int(200*scale+shift_y)
         for linea in self.listaCreditos:
             self.mostrarTexto(linea.strip(),
-                              self.fuente32,
-                              (int(600 * scale + shift_x), yLinea),
-                              COLOR_CREDITS)
-            yLinea = yLinea + int(40 * scale)
+                            self.fuente32,
+                            (int(600*scale+shift_x),yLinea),
+                            COLOR_CREDITS)
+            yLinea = yLinea + int(40*scale)
 
         self.mostrarTexto(_("Press any key to return"),
-                          self.fuente32,
-                          (int(600 * scale + shift_x),
-                           int(800 * scale + shift_y)),
-                          COLOR_SKIP)
+                        self.fuente32,
+                        (int(600*scale+shift_x),
+                        int(800*scale+shift_y)),
+                        COLOR_SKIP)
         pygame.display.flip()
         while True:
             while Gtk.events_pending():
