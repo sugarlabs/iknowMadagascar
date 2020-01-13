@@ -29,7 +29,7 @@ import pygame
 import time
 import imp
 import logging
-import ConfigParser
+import configparser
 import gettext
 from gettext import gettext as _
 
@@ -214,11 +214,11 @@ class Nivel():
 
     def __init__(self, nombre):
         self.nombre = nombre
-        self.dibujoInicial = []
-        self.nombreInicial = []
-        self.preguntas = []
+        self.dibujoInicial = list()
+        self.nombreInicial = list()
+        self.preguntas = list()
         self.indicePreguntaActual = 0
-        self.elementosActivos = []
+        self.elementosActivos = list()
 
     def prepararPreguntas(self):
         """Este metodo sirve para preparar la lista de preguntas al azar."""
@@ -383,20 +383,16 @@ class Conozco():
 
     def loadCommons(self):
 
-        self.listaPrefijos = []
-        self.listaSufijos = []
-        self.listaCorrecto = []
-        self.listaMal = []
-        self.listaDespedidasB = []
-        self.listaDespedidasM = []
-        self.listaPresentacion = []
-        self.listaCreditos = []
+        self.listaPrefijos = list()
+        self.listaSufijos = list()
+        self.listaCorrecto = list()
+        self.listaMal = list()
+        self.listaDespedidasB = list()
+        self.listaDespedidasM = list()
+        self.listaPresentacion = list()
+        self.listaCreditos = list()
 
-        r_path = os.path.join(
-            CAMINORECURSOS,
-            CAMINOCOMUN,
-            'datos',
-            'commons.py')
+        r_path = os.path.join(CAMINORECURSOS, CAMINOCOMUN, 'datos', 'commons.py')
         a_path = os.path.abspath(r_path)
         f = None
         try:
@@ -450,7 +446,7 @@ class Conozco():
 
     def cargarNiveles(self):
         """Carga los niveles del archivo de configuracion"""
-        self.listaNiveles = []
+        self.listaNiveles = list()
 
         r_path = os.path.join(self.camino_datos, ARCHIVONIVELES + '.py')
         a_path = os.path.abspath(r_path)
@@ -482,8 +478,8 @@ class Conozco():
                         tipo = i[1]
                         respuesta = unicode(i[2], 'UTF-8')
                         ayuda = unicode(i[3], 'UTF-8')
-                        nuevoNivel.preguntas.append(
-                            (texto, tipo, respuesta, ayuda))
+                        nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
+                            
                 else:
                     for i in listpreguntas:
                         respuesta = unicode(i[0], 'UTF-8')
@@ -522,8 +518,8 @@ class Conozco():
                             tipo = 6
                             texto = _('the %(route)s') % {'route': respuesta}
 
-                        nuevoNivel.preguntas.append(
-                            (texto, tipo, respuesta, ayuda))
+                        nuevoNivel.preguntas.append((texto, tipo, respuesta, ayuda))
+                            
 
                 self.listaNiveles.append(nuevoNivel)
 
@@ -824,7 +820,7 @@ class Conozco():
 
     def __init__(self, parent=None):
         self.parent = parent
-        file_activity_info = ConfigParser.ConfigParser()
+        file_activity_info = configparser.ConfigParser()
         activity_info_path = os.path.abspath('activity/activity.info')
         file_activity_info.read(activity_info_path)
         bundle_id = file_activity_info.get('Activity', 'bundle_id')
