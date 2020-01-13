@@ -1,6 +1,5 @@
 import logging
 from gi.repository import Gdk
-from gi.repository import GObject
 import pygame
 import pygame.event
 
