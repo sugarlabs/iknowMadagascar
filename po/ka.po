@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-12 21:13+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-04-01 08:11+0000\n"
+"Last-Translator: NF <rkavt@smartprojects.ge>\n"
+"Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
+"sugar-activities/iknowmadagascar/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.2\n"
 
 #: activity/activity.info:2 recursos/comun/datos/commons.py:5
 msgid "I know Madagascar"
@@ -1391,3 +1394,11 @@ msgstr ""
 #: recursos/comun/datos/commons.py:63
 msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr ""
+
+#: conozco.py:823
+msgid "Previous page"
+msgstr "წინა გვერდი"
+
+#: conozco.py:868
+msgid "Next page"
+msgstr "შემდეგი გვერდი"
