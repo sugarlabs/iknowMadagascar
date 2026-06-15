@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-12 21:13+0530\n"
-"PO-Revision-Date: 2026-06-15 04:38+0000\n"
+"PO-Revision-Date: 2026-06-15 07:48+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowmadagascar/ka/>\n"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: conozco.py:747
 msgid "Stats"
-msgstr ""
+msgstr "სტატისტიკა"
 
 #: conozco.py:1257 conozco.py:1419
 msgid "End"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:5
 msgid "Madagascar"
-msgstr ""
+msgstr "მადაგასკარი"
 
 #: recursos/0madagascar/datos/0madagascar.py:8
 #: recursos/0madagascar/datos/0madagascar.py:18
@@ -231,7 +231,7 @@ msgstr ""
 #: recursos/0madagascar/datos/levels.py:51
 #: recursos/0madagascar/datos/levels.py:52
 msgid "Toliary"
-msgstr ""
+msgstr "ტოლიარი"
 
 #: recursos/0madagascar/datos/0madagascar.py:9
 #: recursos/0madagascar/datos/0madagascar.py:22
@@ -253,7 +253,7 @@ msgstr ""
 #: recursos/0madagascar/datos/levels.py:144
 #: recursos/0madagascar/datos/levels.py:145
 msgid "Fianarantsoa"
-msgstr ""
+msgstr "ფიანარანცუა"
 
 #: recursos/0madagascar/datos/0madagascar.py:10
 #: recursos/0madagascar/datos/0madagascar.py:17
@@ -265,7 +265,7 @@ msgstr ""
 #: recursos/0madagascar/datos/levels.py:126
 #: recursos/0madagascar/datos/levels.py:127
 msgid "Antananarivo"
-msgstr ""
+msgstr "ანტანანარივუ"
 
 #: recursos/0madagascar/datos/0madagascar.py:11
 #: recursos/0madagascar/datos/0madagascar.py:19
@@ -300,7 +300,7 @@ msgstr ""
 #: recursos/0madagascar/datos/levels.py:82
 #: recursos/0madagascar/datos/levels.py:83
 msgid "Mahajanga"
-msgstr ""
+msgstr "მაჰაძანგა"
 
 #: recursos/0madagascar/datos/0madagascar.py:12
 #: recursos/0madagascar/datos/0madagascar.py:20
@@ -325,7 +325,7 @@ msgstr ""
 #: recursos/0madagascar/datos/levels.py:103
 #: recursos/0madagascar/datos/levels.py:104
 msgid "Antsiranana"
-msgstr ""
+msgstr "ანცირანანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:13
 #: recursos/0madagascar/datos/0madagascar.py:21
@@ -345,97 +345,97 @@ msgstr ""
 #: recursos/0madagascar/datos/levels.py:119
 #: recursos/0madagascar/datos/levels.py:120
 msgid "Tomasina"
-msgstr ""
+msgstr "ტუამასინა"
 
 #: recursos/0madagascar/datos/0madagascar.py:27
 #: recursos/0madagascar/datos/levels.py:14
 msgid "Manambato"
-msgstr ""
+msgstr "მანამბატო"
 
 #: recursos/0madagascar/datos/0madagascar.py:28
 #: recursos/0madagascar/datos/levels.py:15
 msgid "Mahatalaky"
-msgstr ""
+msgstr "მაჰატალაკი"
 
 #: recursos/0madagascar/datos/0madagascar.py:29
 #: recursos/0madagascar/datos/levels.py:16
 msgid "Tolanaro"
-msgstr ""
+msgstr "ტაულანტარუ"
 
 #: recursos/0madagascar/datos/0madagascar.py:30
 #: recursos/0madagascar/datos/levels.py:17
 msgid "Beanky"
-msgstr ""
+msgstr "ბინკი"
 
 #: recursos/0madagascar/datos/0madagascar.py:31
 #: recursos/0madagascar/datos/levels.py:18
 msgid "Talaky"
-msgstr ""
+msgstr "ტალაკი"
 
 #: recursos/0madagascar/datos/0madagascar.py:32
 #: recursos/0madagascar/datos/levels.py:19
 msgid "Betanty"
-msgstr ""
+msgstr "ბეტანტი"
 
 #: recursos/0madagascar/datos/0madagascar.py:33
 #: recursos/0madagascar/datos/levels.py:20
 msgid "Lavanono"
-msgstr ""
+msgstr "ლავანონო"
 
 #: recursos/0madagascar/datos/0madagascar.py:34
 #: recursos/0madagascar/datos/levels.py:21
 msgid "Beloha"
-msgstr ""
+msgstr "ბელოჰა"
 
 #: recursos/0madagascar/datos/0madagascar.py:35
 #: recursos/0madagascar/datos/levels.py:22
 msgid "Etrobeke"
-msgstr ""
+msgstr "ეტრֹობეკე"
 
 #: recursos/0madagascar/datos/0madagascar.py:36
 #: recursos/0madagascar/datos/levels.py:23
 msgid "Androka"
-msgstr ""
+msgstr "ანდროკა"
 
 #: recursos/0madagascar/datos/0madagascar.py:37
 #: recursos/0madagascar/datos/levels.py:24
 msgid "Ankazoabo"
-msgstr ""
+msgstr "ანკაზოაბო"
 
 #: recursos/0madagascar/datos/0madagascar.py:38
 #: recursos/0madagascar/datos/levels.py:25
 msgid "Vohombe"
-msgstr ""
+msgstr "ვოჰომბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:39
 #: recursos/0madagascar/datos/levels.py:26
 msgid "Efoetse"
-msgstr ""
+msgstr "ეფოეცე"
 
 #: recursos/0madagascar/datos/0madagascar.py:40
 #: recursos/0madagascar/datos/levels.py:27
 msgid "Beheloka"
-msgstr ""
+msgstr "ბეჰელოკე"
 
 #: recursos/0madagascar/datos/0madagascar.py:41
 #: recursos/0madagascar/datos/levels.py:28
 msgid "Betioky"
-msgstr ""
+msgstr "ბეტიოკი"
 
 #: recursos/0madagascar/datos/0madagascar.py:42
 #: recursos/0madagascar/datos/levels.py:29
 msgid "Anakao"
-msgstr ""
+msgstr "ანაკაო"
 
 #: recursos/0madagascar/datos/0madagascar.py:43
 #: recursos/0madagascar/datos/levels.py:30
 msgid "Bezaha"
-msgstr ""
+msgstr "ბეზაჰა"
 
 #: recursos/0madagascar/datos/0madagascar.py:44
 #: recursos/0madagascar/datos/levels.py:31
 msgid "Ankilarivo"
-msgstr ""
+msgstr "ანკილარივო"
 
 #: recursos/0madagascar/datos/0madagascar.py:45
 #: recursos/0madagascar/datos/levels.py:32
@@ -445,12 +445,12 @@ msgstr ""
 #: recursos/0madagascar/datos/0madagascar.py:46
 #: recursos/0madagascar/datos/levels.py:33
 msgid "Tanambao"
-msgstr ""
+msgstr "ტანამბაო"
 
 #: recursos/0madagascar/datos/0madagascar.py:47
 #: recursos/0madagascar/datos/levels.py:34
 msgid "Ambohitsabo"
-msgstr ""
+msgstr "ამბოჰიცაბო"
 
 #: recursos/0madagascar/datos/0madagascar.py:48
 #: recursos/0madagascar/datos/levels.py:35
@@ -460,12 +460,12 @@ msgstr ""
 #: recursos/0madagascar/datos/0madagascar.py:49
 #: recursos/0madagascar/datos/levels.py:36
 msgid "Andavadoaka"
-msgstr ""
+msgstr "ანდავადოაკა"
 
 #: recursos/0madagascar/datos/0madagascar.py:50
 #: recursos/0madagascar/datos/levels.py:37
 msgid "Morombe"
-msgstr ""
+msgstr "მორომბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:51
 #: recursos/0madagascar/datos/levels.py:38
@@ -475,42 +475,42 @@ msgstr ""
 #: recursos/0madagascar/datos/0madagascar.py:52
 #: recursos/0madagascar/datos/levels.py:39
 msgid "Ambohibe"
-msgstr ""
+msgstr "ამბოჰიბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:53
 #: recursos/0madagascar/datos/levels.py:40
 msgid "Ankoba"
-msgstr ""
+msgstr "ანკობა"
 
 #: recursos/0madagascar/datos/0madagascar.py:54
 #: recursos/0madagascar/datos/levels.py:41
 msgid "Manja"
-msgstr ""
+msgstr "მანია"
 
 #: recursos/0madagascar/datos/0madagascar.py:55
 #: recursos/0madagascar/datos/levels.py:42
 msgid "Belo"
-msgstr ""
+msgstr "ბელო"
 
 #: recursos/0madagascar/datos/0madagascar.py:56
 #: recursos/0madagascar/datos/levels.py:43
 msgid "Manometimay"
-msgstr ""
+msgstr "მანომეტიმეი"
 
 #: recursos/0madagascar/datos/0madagascar.py:57
 #: recursos/0madagascar/datos/levels.py:44
 msgid "Morondava"
-msgstr ""
+msgstr "მორონდავა"
 
 #: recursos/0madagascar/datos/0madagascar.py:58
 #: recursos/0madagascar/datos/levels.py:45
 msgid "Mandronarivo"
-msgstr ""
+msgstr "მანდრონარივო"
 
 #: recursos/0madagascar/datos/0madagascar.py:59
 #: recursos/0madagascar/datos/levels.py:46
 msgid "Malaimbandy"
-msgstr ""
+msgstr "მალაიმბანდი"
 
 #: recursos/0madagascar/datos/0madagascar.py:60
 #: recursos/0madagascar/datos/levels.py:47
@@ -525,117 +525,117 @@ msgstr ""
 #: recursos/0madagascar/datos/0madagascar.py:62
 #: recursos/0madagascar/datos/levels.py:49
 msgid "Andramasay"
-msgstr ""
+msgstr "ანდრამასაი"
 
 #: recursos/0madagascar/datos/0madagascar.py:63
 #: recursos/0madagascar/datos/levels.py:50
 msgid "Adabozato"
-msgstr ""
+msgstr "ადაბოზატო"
 
 #: recursos/0madagascar/datos/0madagascar.py:64
 #: recursos/0madagascar/datos/levels.py:51
 msgid "Behamotra"
-msgstr ""
+msgstr "ბეჰამოტრა"
 
 #: recursos/0madagascar/datos/0madagascar.py:65
 #: recursos/0madagascar/datos/levels.py:52
 msgid "Appontement"
-msgstr ""
+msgstr "აპონტმენტი"
 
 #: recursos/0madagascar/datos/0madagascar.py:67
 #: recursos/0madagascar/datos/levels.py:54
 msgid "Bekopaka"
-msgstr ""
+msgstr "ბეკოპარა"
 
 #: recursos/0madagascar/datos/0madagascar.py:68
 #: recursos/0madagascar/datos/levels.py:55
 msgid "Bemamba"
-msgstr ""
+msgstr "ბემამბა"
 
 #: recursos/0madagascar/datos/0madagascar.py:69
 #: recursos/0madagascar/datos/levels.py:56
 msgid "Ankiliroa"
-msgstr ""
+msgstr "ანკილიროა"
 
 #: recursos/0madagascar/datos/0madagascar.py:70
 #: recursos/0madagascar/datos/levels.py:57
 msgid "Maintirano"
-msgstr ""
+msgstr "მაინტირანო"
 
 #: recursos/0madagascar/datos/0madagascar.py:71
 #: recursos/0madagascar/datos/levels.py:58
 msgid "Ankatrafay"
-msgstr ""
+msgstr "ანკატრაფი"
 
 #: recursos/0madagascar/datos/0madagascar.py:72
 #: recursos/0madagascar/datos/levels.py:59
 msgid "Tambohorano"
-msgstr ""
+msgstr "ტამბოჰორანო"
 
 #: recursos/0madagascar/datos/0madagascar.py:73
 #: recursos/0madagascar/datos/levels.py:60
 msgid "Onara"
-msgstr ""
+msgstr "ონარა"
 
 #: recursos/0madagascar/datos/0madagascar.py:74
 #: recursos/0madagascar/datos/levels.py:61
 msgid "Makaraingo"
-msgstr ""
+msgstr "მაკარაინგო"
 
 #: recursos/0madagascar/datos/0madagascar.py:75
 #: recursos/0madagascar/datos/levels.py:62
 msgid "Andasibe"
-msgstr ""
+msgstr "ანდასიბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:76
 #: recursos/0madagascar/datos/levels.py:63
 msgid "Besalampy"
-msgstr ""
+msgstr "ბესალამპი"
 
 #: recursos/0madagascar/datos/0madagascar.py:77
 #: recursos/0madagascar/datos/levels.py:64
 msgid "Vilamatsa"
-msgstr ""
+msgstr "ვილამაცა"
 
 #: recursos/0madagascar/datos/0madagascar.py:78
 #: recursos/0madagascar/datos/levels.py:65
 msgid "Ambohipaky"
-msgstr ""
+msgstr "ამბოჰიპაკი"
 
 #: recursos/0madagascar/datos/0madagascar.py:79
 #: recursos/0madagascar/datos/levels.py:66
 msgid "Maria"
-msgstr ""
+msgstr "მარია"
 
 #: recursos/0madagascar/datos/0madagascar.py:80
 #: recursos/0madagascar/datos/levels.py:67
 msgid "Antanandava"
-msgstr ""
+msgstr "ანტანანდავა"
 
 #: recursos/0madagascar/datos/0madagascar.py:81
 #: recursos/0madagascar/datos/levels.py:68
 msgid "Ambakireny"
-msgstr ""
+msgstr "ამბაკინერი"
 
 #: recursos/0madagascar/datos/0madagascar.py:82
 #: recursos/0madagascar/datos/levels.py:69
 msgid "Manakana"
-msgstr ""
+msgstr "მანაკანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:83
 #: recursos/0madagascar/datos/levels.py:70
 msgid "Ampandrana"
-msgstr ""
+msgstr "ამპანდრანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:84
 #: recursos/0madagascar/datos/levels.py:71
 msgid "Besakay"
-msgstr ""
+msgstr "ბესაკაი"
 
 #: recursos/0madagascar/datos/0madagascar.py:85
 #: recursos/0madagascar/datos/levels.py:72
 msgid "Matsitso"
-msgstr ""
+msgstr "მაციცო"
 
 #: recursos/0madagascar/datos/0madagascar.py:86
 #: recursos/0madagascar/datos/levels.py:73
@@ -645,182 +645,182 @@ msgstr ""
 #: recursos/0madagascar/datos/0madagascar.py:87
 #: recursos/0madagascar/datos/levels.py:74
 msgid "Marovoay"
-msgstr ""
+msgstr "მაროვოაი"
 
 #: recursos/0madagascar/datos/0madagascar.py:88
 #: recursos/0madagascar/datos/levels.py:75
 msgid "Morafeno"
-msgstr ""
+msgstr "მორაფენო"
 
 #: recursos/0madagascar/datos/0madagascar.py:89
 #: recursos/0madagascar/datos/levels.py:76
 msgid "Tsianinkira"
-msgstr ""
+msgstr "ცინინკირა"
 
 #: recursos/0madagascar/datos/0madagascar.py:90
 #: recursos/0madagascar/datos/levels.py:77
 msgid "Mandritsara"
-msgstr ""
+msgstr "მანდრიცარა"
 
 #: recursos/0madagascar/datos/0madagascar.py:91
 #: recursos/0madagascar/datos/levels.py:78
 msgid "Anjajavy"
-msgstr ""
+msgstr "ანჯაჯავი"
 
 #: recursos/0madagascar/datos/0madagascar.py:92
 #: recursos/0madagascar/datos/levels.py:79
 msgid "Analava"
-msgstr ""
+msgstr "ანალავა"
 
 #: recursos/0madagascar/datos/0madagascar.py:93
 #: recursos/0madagascar/datos/levels.py:80
 msgid "Maromandia"
-msgstr ""
+msgstr "მარომანდია"
 
 #: recursos/0madagascar/datos/0madagascar.py:94
 #: recursos/0madagascar/datos/levels.py:81
 msgid "Antanantanana"
-msgstr ""
+msgstr "ანტანანტანანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:95
 #: recursos/0madagascar/datos/levels.py:82
 msgid "Antsahabe"
-msgstr ""
+msgstr "ანცაჰაბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:96
 #: recursos/0madagascar/datos/levels.py:83
 msgid "Marovotry"
-msgstr ""
+msgstr "მაროვოტრი"
 
 #: recursos/0madagascar/datos/0madagascar.py:98
 #: recursos/0madagascar/datos/levels.py:85
 msgid "Ampohana"
-msgstr ""
+msgstr "ამპოჰანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:99
 #: recursos/0madagascar/datos/levels.py:86
 msgid "Ambanja"
-msgstr ""
+msgstr "ამბანია"
 
 #: recursos/0madagascar/datos/0madagascar.py:100
 #: recursos/0madagascar/datos/levels.py:87
 msgid "Ambilobe"
-msgstr ""
+msgstr "ამბილობე"
 
 #: recursos/0madagascar/datos/0madagascar.py:101
 #: recursos/0madagascar/datos/levels.py:88
 msgid "Ambatoharanana"
-msgstr ""
+msgstr "ამბატოჰანარანანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:102
 #: recursos/0madagascar/datos/levels.py:89
 msgid "Bobasakoa"
-msgstr ""
+msgstr "ბობასაკოა"
 
 #: recursos/0madagascar/datos/0madagascar.py:103
 #: recursos/0madagascar/datos/levels.py:90
 msgid "Bemanevikabe"
-msgstr ""
+msgstr "ბემანევიკაბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:104
 #: recursos/0madagascar/datos/levels.py:91
 msgid "Anjiabe"
-msgstr ""
+msgstr "ანჯიაბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:105
 #: recursos/0madagascar/datos/levels.py:92
 msgid "Irodo"
-msgstr ""
+msgstr "იროდო"
 
 #: recursos/0madagascar/datos/0madagascar.py:106
 #: recursos/0madagascar/datos/levels.py:93
 msgid "Ampisikinana"
-msgstr ""
+msgstr "ამპისიკინანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:107
 #: recursos/0madagascar/datos/levels.py:94
 msgid "Daraina"
-msgstr ""
+msgstr "დარაინა"
 
 #: recursos/0madagascar/datos/0madagascar.py:108
 #: recursos/0madagascar/datos/levels.py:95
 msgid "Apondra"
-msgstr ""
+msgstr "აპონდრა"
 
 #: recursos/0madagascar/datos/0madagascar.py:109
 #: recursos/0madagascar/datos/levels.py:96
 msgid "Zarambavy"
-msgstr ""
+msgstr "ზარამბავი"
 
 #: recursos/0madagascar/datos/0madagascar.py:110
 #: recursos/0madagascar/datos/levels.py:97
 msgid "Doany"
-msgstr ""
+msgstr "დოანი"
 
 #: recursos/0madagascar/datos/0madagascar.py:111
 #: recursos/0madagascar/datos/levels.py:98
 msgid "Tanambao-Daoud"
-msgstr ""
+msgstr "ტანამბაო-დაოუდი"
 
 #: recursos/0madagascar/datos/0madagascar.py:112
 #: recursos/0madagascar/datos/levels.py:99
 msgid "Sambava"
-msgstr ""
+msgstr "სამბავა"
 
 #: recursos/0madagascar/datos/0madagascar.py:113
 #: recursos/0madagascar/datos/levels.py:100
 msgid "Farahalana"
-msgstr ""
+msgstr "ფარაჰალანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:114
 #: recursos/0madagascar/datos/levels.py:101
 msgid "Andranofotsy"
-msgstr ""
+msgstr "ანდრანოფოცი"
 
 #: recursos/0madagascar/datos/0madagascar.py:115
 #: recursos/0madagascar/datos/levels.py:102
 msgid "Antalaha"
-msgstr ""
+msgstr "ანტალაჰა"
 
 #: recursos/0madagascar/datos/0madagascar.py:116
 #: recursos/0madagascar/datos/levels.py:103
 msgid "Ambohitralanana"
-msgstr ""
+msgstr "ამბოჰიტრალანანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:117
 #: recursos/0madagascar/datos/levels.py:104
 msgid "Ampanavoana"
-msgstr ""
+msgstr "ამპანავოანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:119
 #: recursos/0madagascar/datos/levels.py:106
 msgid "Maroantsetra"
-msgstr ""
+msgstr "მაროანცეტრა"
 
 #: recursos/0madagascar/datos/0madagascar.py:120
 #: recursos/0madagascar/datos/levels.py:107
 msgid "Seranambe"
-msgstr ""
+msgstr "სერანამბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:121
 #: recursos/0madagascar/datos/levels.py:108
 msgid "Antanambe"
-msgstr ""
+msgstr "ანტანამბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:122
 #: recursos/0madagascar/datos/levels.py:109
 msgid "Ambodiatafana"
-msgstr ""
+msgstr "ამბოდიატაფანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:123
 #: recursos/0madagascar/datos/levels.py:110
 msgid "Vohilava"
-msgstr ""
+msgstr "ვოჰილავა"
 
 #: recursos/0madagascar/datos/0madagascar.py:124
 #: recursos/0madagascar/datos/levels.py:111
 msgid "Andrangazaha"
-msgstr ""
+msgstr "ანდრანგაზაჰა"
 
 #: recursos/0madagascar/datos/0madagascar.py:125
 #: recursos/0madagascar/datos/levels.py:112
@@ -830,137 +830,137 @@ msgstr ""
 #: recursos/0madagascar/datos/0madagascar.py:126
 #: recursos/0madagascar/datos/levels.py:113
 msgid "Amparafaravola"
-msgstr ""
+msgstr "ამპარაფარავოლა"
 
 #: recursos/0madagascar/datos/0madagascar.py:127
 #: recursos/0madagascar/datos/levels.py:114
 msgid "Ambatondrazaka"
-msgstr ""
+msgstr "ამბატონდრაზაკა"
 
 #: recursos/0madagascar/datos/0madagascar.py:128
 #: recursos/0madagascar/datos/levels.py:115
 msgid "Ambila-Lemaitso"
-msgstr ""
+msgstr "ამბილა-ლემაიცო"
 
 #: recursos/0madagascar/datos/0madagascar.py:129
 #: recursos/0madagascar/datos/levels.py:116
 msgid "Moramanga"
-msgstr ""
+msgstr "მორამანგა"
 
 #: recursos/0madagascar/datos/0madagascar.py:130
 #: recursos/0madagascar/datos/levels.py:117
 msgid "Vohitrampasina"
-msgstr ""
+msgstr "ვოჰიტრამპასინა"
 
 #: recursos/0madagascar/datos/0madagascar.py:131
 #: recursos/0madagascar/datos/levels.py:118
 msgid "Vatomandry"
-msgstr ""
+msgstr "ვატომანდრი"
 
 #: recursos/0madagascar/datos/0madagascar.py:132
 #: recursos/0madagascar/datos/levels.py:119
 msgid "Ambodiharina"
-msgstr ""
+msgstr "ამბოდიჰარინა"
 
 #: recursos/0madagascar/datos/0madagascar.py:133
 #: recursos/0madagascar/datos/levels.py:120
 msgid "Masomeloka"
-msgstr ""
+msgstr "მასომელოკა"
 
 #: recursos/0madagascar/datos/0madagascar.py:135
 #: recursos/0madagascar/datos/levels.py:122
 msgid "Ambohimena"
-msgstr ""
+msgstr "ამბოჰიმენა"
 
 #: recursos/0madagascar/datos/0madagascar.py:136
 #: recursos/0madagascar/datos/levels.py:123
 msgid "Fiadanana"
-msgstr ""
+msgstr "ფიადანანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:137
 #: recursos/0madagascar/datos/levels.py:124
 msgid "Tsiroanomandidy"
-msgstr ""
+msgstr "ციროანომანდიდი"
 
 #: recursos/0madagascar/datos/0madagascar.py:138
 #: recursos/0madagascar/datos/levels.py:125
 msgid "Sakay"
-msgstr ""
+msgstr "საკაი"
 
 #: recursos/0madagascar/datos/0madagascar.py:139
 #: recursos/0madagascar/datos/levels.py:126
 msgid "Ambatolampy"
-msgstr ""
+msgstr "ამბატოლამპი"
 
 #: recursos/0madagascar/datos/0madagascar.py:140
 #: recursos/0madagascar/datos/levels.py:127
 msgid "Antsirabe"
-msgstr ""
+msgstr "ანცირაბე"
 
 #: recursos/0madagascar/datos/0madagascar.py:142
 #: recursos/0madagascar/datos/levels.py:129
 msgid "Lopary"
-msgstr ""
+msgstr "ლოპარი"
 
 #: recursos/0madagascar/datos/0madagascar.py:143
 #: recursos/0madagascar/datos/levels.py:130
 msgid "Ranomena"
-msgstr ""
+msgstr "რანომენა"
 
 #: recursos/0madagascar/datos/0madagascar.py:144
 #: recursos/0madagascar/datos/levels.py:131
 msgid "Isahara"
-msgstr ""
+msgstr "ისაჰარა"
 
 #: recursos/0madagascar/datos/0madagascar.py:145
 #: recursos/0madagascar/datos/levels.py:132
 msgid "Sandravinany"
-msgstr ""
+msgstr "სანდრავინანი"
 
 #: recursos/0madagascar/datos/0madagascar.py:146
 #: recursos/0madagascar/datos/levels.py:133
 msgid "Soavina"
-msgstr ""
+msgstr "სოავინა"
 
 #: recursos/0madagascar/datos/0madagascar.py:147
 #: recursos/0madagascar/datos/levels.py:134
 msgid "Nosy-Varika"
-msgstr ""
+msgstr "ნოსი-ვარიკა"
 
 #: recursos/0madagascar/datos/0madagascar.py:148
 #: recursos/0madagascar/datos/levels.py:135
 msgid "Amborompotsy"
-msgstr ""
+msgstr "ამბორომპცი"
 
 #: recursos/0madagascar/datos/0madagascar.py:149
 #: recursos/0madagascar/datos/levels.py:136
 msgid "Ambatomainty"
-msgstr ""
+msgstr "ამბატომაინტი"
 
 #: recursos/0madagascar/datos/0madagascar.py:150
 #: recursos/0madagascar/datos/levels.py:137
 msgid "Mahela"
-msgstr ""
+msgstr "მაჰელა"
 
 #: recursos/0madagascar/datos/0madagascar.py:151
 #: recursos/0madagascar/datos/levels.py:138
 msgid "Mananjary"
-msgstr ""
+msgstr "მანანჯარი"
 
 #: recursos/0madagascar/datos/0madagascar.py:152
 #: recursos/0madagascar/datos/levels.py:139
 msgid "Ampasimanjeva"
-msgstr ""
+msgstr "ამპასიმანიევა"
 
 #: recursos/0madagascar/datos/0madagascar.py:153
 #: recursos/0madagascar/datos/levels.py:140
 msgid "Sahasinaka"
-msgstr ""
+msgstr "საჰასინაკა"
 
 #: recursos/0madagascar/datos/0madagascar.py:154
 #: recursos/0madagascar/datos/levels.py:141
 msgid "Manakara"
-msgstr ""
+msgstr "მანაკარა"
 
 #: recursos/0madagascar/datos/0madagascar.py:155
 #: recursos/0madagascar/datos/levels.py:142
@@ -970,17 +970,17 @@ msgstr ""
 #: recursos/0madagascar/datos/0madagascar.py:156
 #: recursos/0madagascar/datos/levels.py:143
 msgid "Vohipeno"
-msgstr ""
+msgstr "ვოჰიპენო"
 
 #: recursos/0madagascar/datos/0madagascar.py:157
 #: recursos/0madagascar/datos/levels.py:144
 msgid "Ranohira"
-msgstr ""
+msgstr "რანოჰირა"
 
 #: recursos/0madagascar/datos/0madagascar.py:158
 #: recursos/0madagascar/datos/levels.py:145
 msgid "Farafangana"
-msgstr ""
+msgstr "ფარაფანგანა"
 
 #: recursos/0madagascar/datos/0madagascar.py:160
 #: recursos/0madagascar/datos/levels.py:146
@@ -1001,11 +1001,11 @@ msgstr "ენა:"
 
 #: recursos/0madagascar/datos/0madagascar.py:171
 msgid "Malagasy"
-msgstr ""
+msgstr "მალაგასი"
 
 #: recursos/0madagascar/datos/0madagascar.py:171
 msgid "French"
-msgstr ""
+msgstr "ფრანგული"
 
 #: recursos/0madagascar/datos/0madagascar.py:172
 msgid "Government:"
