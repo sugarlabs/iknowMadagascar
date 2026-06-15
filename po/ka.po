@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-12 21:13+0530\n"
-"PO-Revision-Date: 2026-06-15 07:48+0000\n"
+"PO-Revision-Date: 2026-06-15 16:05+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowmadagascar/ka/>\n"
@@ -42,7 +42,7 @@ msgstr ""
 #: conozco.py:268 conozco.py:377 conozco.py:405 conozco.py:461 conozco.py:543
 #, python-format
 msgid "Cannot open %s"
-msgstr ""
+msgstr "%s-ის გახსნა ვერ მოხერხდა"
 
 #: conozco.py:493
 #, python-format
@@ -120,7 +120,7 @@ msgstr ""
 #: conozco.py:578
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "%s-ის შესახებ"
 
 #: conozco.py:592 conozco.py:666
 msgid "Press any key to return"
@@ -183,7 +183,7 @@ msgstr "დასასრული"
 
 #: conozco.py:1268
 msgid "Show all"
-msgstr ""
+msgstr "ყველას ჩვენება"
 
 #: recursos/0madagascar/datos/0madagascar.py:5
 msgid "Madagascar"
