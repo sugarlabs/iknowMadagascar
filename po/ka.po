@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-12 21:13+0530\n"
-"PO-Revision-Date: 2026-04-01 08:11+0000\n"
+"PO-Revision-Date: 2026-06-15 04:31+0000\n"
 "Last-Translator: NF <rkavt@smartprojects.ge>\n"
 "Language-Team: Georgian <http://weblate.sugarlabs.org/projects/"
 "sugar-activities/iknowmadagascar/ka/>\n"
@@ -163,11 +163,11 @@ msgstr ""
 
 #: conozco.py:702
 msgid "Play"
-msgstr ""
+msgstr "დაკვრა"
 
 #: conozco.py:719
 msgid "Explore"
-msgstr ""
+msgstr "დათვალიერება"
 
 #: conozco.py:739
 msgid "About this game"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: conozco.py:1257 conozco.py:1419
 msgid "End"
-msgstr ""
+msgstr "დასასრული"
 
 #: conozco.py:1268
 msgid "Show all"
@@ -989,7 +989,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:170
 msgid "Capital:"
-msgstr ""
+msgstr "დედაქალაქი:"
 
 #: recursos/0madagascar/datos/0madagascar.py:170
 msgid "(18°55' S - 47°31' W)"
@@ -997,7 +997,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:171
 msgid "Language:"
-msgstr ""
+msgstr "ენა:"
 
 #: recursos/0madagascar/datos/0madagascar.py:171
 msgid "Malagasy"
@@ -1009,7 +1009,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:172
 msgid "Government:"
-msgstr ""
+msgstr "მთავრობა:"
 
 #: recursos/0madagascar/datos/0madagascar.py:172
 msgid "Caretaker government"
@@ -1017,7 +1017,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:173
 msgid "President:"
-msgstr ""
+msgstr "პრეზიდენტი:"
 
 #: recursos/0madagascar/datos/0madagascar.py:173
 msgid "Andry Rajoelina"
@@ -1033,7 +1033,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:175
 msgid "Independence:"
-msgstr ""
+msgstr "თავისუფლება:"
 
 #: recursos/0madagascar/datos/0madagascar.py:175
 msgid "from France"
@@ -1045,7 +1045,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:177
 msgid "Area:"
-msgstr ""
+msgstr "არე:"
 
 #: recursos/0madagascar/datos/0madagascar.py:177
 msgid "587.041 km² (47th)"
@@ -1053,7 +1053,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:178
 msgid "Population:"
-msgstr ""
+msgstr "პოპულაცია:"
 
 #: recursos/0madagascar/datos/0madagascar.py:178
 msgid "22.005.222 (53rd)"
@@ -1061,7 +1061,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:179
 msgid "GDP:"
-msgstr ""
+msgstr "მშპ:"
 
 #: recursos/0madagascar/datos/0madagascar.py:179
 msgid "USD 20.400 billion"
@@ -1069,7 +1069,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:180
 msgid "HDI:"
-msgstr ""
+msgstr "აგი:"
 
 #: recursos/0madagascar/datos/0madagascar.py:180
 msgid "Low - 0,435 (135th)"
@@ -1077,7 +1077,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/0madagascar.py:181
 msgid "Currency:"
-msgstr ""
+msgstr "ვალუტა:"
 
 #: recursos/0madagascar/datos/0madagascar.py:181
 msgid "Malagasy ariary"
@@ -1085,7 +1085,7 @@ msgstr ""
 
 #: recursos/0madagascar/datos/explorations.py:6
 msgid "Provinces"
-msgstr ""
+msgstr "პროვინციები"
 
 #: recursos/0madagascar/datos/explorations.py:13
 msgid "Provincial capitals"
@@ -1094,16 +1094,16 @@ msgstr ""
 #: recursos/0madagascar/datos/explorations.py:20
 #: recursos/0madagascar/datos/levels.py:9
 msgid "Cities"
-msgstr ""
+msgstr "ქალაქები"
 
 #: recursos/0madagascar/datos/explorations.py:27
 #: recursos/0madagascar/datos/levels.py:152
 msgid "Waterways"
-msgstr ""
+msgstr "წყალსავალი გზები"
 
 #: recursos/0madagascar/datos/explorations.py:34
 msgid "Routes"
-msgstr ""
+msgstr "გზები"
 
 #: recursos/0madagascar/datos/levels.py:14
 #: recursos/0madagascar/datos/levels.py:15
@@ -1402,3 +1402,11 @@ msgstr "წინა გვერდი"
 #: conozco.py:868
 msgid "Next page"
 msgstr "შემდეგი გვერდი"
+
+#: conozco.py:738
+msgid "Return"
+msgstr "დაბრუნება"
+
+#: conozco.py:899
+msgid "Exit"
+msgstr "გასვლა"
